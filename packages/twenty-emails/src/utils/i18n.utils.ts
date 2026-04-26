@@ -30,6 +30,7 @@ import { messages as svMessages } from '@/locales/generated/sv-SE';
 import { messages as trMessages } from '@/locales/generated/tr-TR';
 import { messages as ukMessages } from '@/locales/generated/uk-UA';
 import { messages as viMessages } from '@/locales/generated/vi-VN';
+import { messages as thMessages } from '@/locales/generated/th-TH';
 import { messages as zhHansMessages } from '@/locales/generated/zh-CN';
 import { messages as zhHantMessages } from '@/locales/generated/zh-TW';
 
@@ -63,6 +64,7 @@ const messages: Record<keyof typeof APP_LOCALES, Messages> = {
   'tr-TR': trMessages,
   'uk-UA': ukMessages,
   'vi-VN': viMessages,
+  'th-TH': thMessages,
   'zh-CN': zhHansMessages,
   'zh-TW': zhHantMessages,
 };

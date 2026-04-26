@@ -14104,6 +14104,11 @@ msgstr ""
 msgid "Text Editor"
 msgstr ""
 
+#. js-lingui-id: SUr44j
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Thai"
+msgstr ""
+
 #. js-lingui-id: oVH0Mt
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 msgid "The API endpoint for your OpenAI-compatible provider"
@@ -14210,9 +14215,9 @@ msgstr ""
 msgid "The name of your organization"
 msgstr ""
 
-#. js-lingui-id: L97sPr
+#. js-lingui-id: 26Pii1
 #: src/pages/not-found/NotFound.tsx
-msgid "The page you're seeking is either gone or never was. Let's get you back on track"
+msgid "The page you're seeking is either gone or never there. Let's get you back on track!"
 msgstr ""
 
 #. js-lingui-id: jrCR2X
