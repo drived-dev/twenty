@@ -3,6 +3,7 @@ name: twenty
 services:
   server:
     image: ghcr.io/drived-dev/twenty:latest
+    pull_policy: always
     volumes:
       - server-local-data:/app/packages/twenty-server/.local-storage
     environment:
@@ -34,6 +35,7 @@ services:
 
   worker:
     image: ghcr.io/drived-dev/twenty:latest
+    pull_policy: always
     volumes:
       - server-local-data:/app/packages/twenty-server/.local-storage
     command: ["yarn", "worker:prod"]

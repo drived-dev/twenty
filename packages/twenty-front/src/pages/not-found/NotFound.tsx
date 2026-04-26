@@ -46,7 +46,7 @@ export const NotFound = () => {
       <PageTitle title={t`Page Not Found | Twenty`} />
       <StyledBackDrop>
         <AnimatedPlaceholderErrorContainer>
-          <AnimatedPlaceholder type="error404" />
+          {/* <AnimatedPlaceholder type="error404" /> */}
           <AnimatedPlaceholderEmptyTextContainer>
             <AnimatedPlaceholderErrorTitle>
               <Trans>Off the beaten path</Trans>
