@@ -10,6 +10,8 @@ const SignInBackgroundMockPage = lazy(() =>
 import { RootStackingContextZIndices } from '@/ui/layout/constants/RootStackingContextZIndices';
 import { PageTitle } from '@/ui/utilities/page-title/components/PageTitle';
 import { styled } from '@linaria/react';
+import { AppPath } from 'twenty-shared/types';
+import { MainButton } from 'twenty-ui/input';
 import {
   AnimatedPlaceholder,
   AnimatedPlaceholderEmptyTextContainer,
@@ -17,6 +19,7 @@ import {
   AnimatedPlaceholderErrorSubTitle,
   AnimatedPlaceholderErrorTitle,
 } from 'twenty-ui/layout';
+import { UndecoratedLink } from 'twenty-ui/navigation';
 import { themeCssVariables } from 'twenty-ui/theme-constants';
 
 const StyledBackDrop = styled.div`
@@ -46,7 +49,7 @@ export const NotFound = () => {
       <PageTitle title={t`Page Not Found | Twenty`} />
       <StyledBackDrop>
         <AnimatedPlaceholderErrorContainer>
-          {/* <AnimatedPlaceholder type="error404" /> */}
+          <AnimatedPlaceholder type="error404" />
           <AnimatedPlaceholderEmptyTextContainer>
             <AnimatedPlaceholderErrorTitle>
               <Trans>Off the beaten path</Trans>
@@ -58,11 +61,11 @@ export const NotFound = () => {
               </Trans>
             </AnimatedPlaceholderErrorSubTitle>
           </AnimatedPlaceholderEmptyTextContainer>
-          {/* <StyledButtonContainer>
+          <StyledButtonContainer>
             <UndecoratedLink to={AppPath.Index}>
               <MainButton title={t`Back to content`} fullWidth />
             </UndecoratedLink>
-          </StyledButtonContainer> */}
+          </StyledButtonContainer>
         </AnimatedPlaceholderErrorContainer>
       </StyledBackDrop>
       <Suspense fallback={null}>
