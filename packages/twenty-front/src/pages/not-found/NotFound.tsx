@@ -1,18 +1,17 @@
 import { Trans, useLingui } from '@lingui/react/macro';
 import { lazy, Suspense } from 'react';
+import { AppPath } from 'twenty-shared/types';
 
 const SignInBackgroundMockPage = lazy(() =>
   import('@/sign-in-background-mock/components/SignInBackgroundMockPage').then(
     (module) => ({ default: module.SignInBackgroundMockPage }),
   ),
 );
-import { AppPath } from 'twenty-shared/types';
 
 import { RootStackingContextZIndices } from '@/ui/layout/constants/RootStackingContextZIndices';
 import { PageTitle } from '@/ui/utilities/page-title/components/PageTitle';
 import { styled } from '@linaria/react';
 import { MainButton } from 'twenty-ui/input';
-import { themeCssVariables } from 'twenty-ui/theme-constants';
 import {
   AnimatedPlaceholder,
   AnimatedPlaceholderEmptyTextContainer,
@@ -21,6 +20,7 @@ import {
   AnimatedPlaceholderErrorTitle,
 } from 'twenty-ui/layout';
 import { UndecoratedLink } from 'twenty-ui/navigation';
+import { themeCssVariables } from 'twenty-ui/theme-constants';
 
 const StyledBackDrop = styled.div`
   align-items: center;
@@ -57,7 +57,7 @@ export const NotFound = () => {
             <AnimatedPlaceholderErrorSubTitle>
               <Trans>
                 The page you're seeking is either gone or never was. Let's get
-                you back on track
+                you back on track!
               </Trans>
             </AnimatedPlaceholderErrorSubTitle>
           </AnimatedPlaceholderEmptyTextContainer>
