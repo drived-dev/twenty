@@ -44,6 +44,8 @@ jobs:
           target: twenty
           push: true
           tags: ghcr.io/${{ github.repository }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           # Passing Nx Cloud token into Docker allows even the Internal Docker build to stay cached
           build-args: |
             NX_CLOUD_ACCESS_TOKEN=${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
