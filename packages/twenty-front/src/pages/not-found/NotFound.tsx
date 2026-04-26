@@ -56,7 +56,7 @@ export const NotFound = () => {
             </AnimatedPlaceholderErrorTitle>
             <AnimatedPlaceholderErrorSubTitle>
               <Trans>
-                The page you're seeking is either gone or never was. Let's get
+                The page you're seeking is either gone or never there. Let's get
                 you back on track!
               </Trans>
             </AnimatedPlaceholderErrorSubTitle>
