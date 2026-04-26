@@ -37,6 +37,7 @@ import { messages as svMessages } from 'src/engine/core-modules/i18n/locales/gen
 import { messages as trMessages } from 'src/engine/core-modules/i18n/locales/generated/tr-TR';
 import { messages as ukMessages } from 'src/engine/core-modules/i18n/locales/generated/uk-UA';
 import { messages as viMessages } from 'src/engine/core-modules/i18n/locales/generated/vi-VN';
+import { messages as thMessages } from 'src/engine/core-modules/i18n/locales/generated/th-TH';
 import { messages as zhHansMessages } from 'src/engine/core-modules/i18n/locales/generated/zh-CN';
 import { messages as zhHantMessages } from 'src/engine/core-modules/i18n/locales/generated/zh-TW';
 
@@ -76,6 +77,7 @@ export class I18nService implements OnModuleInit {
       'tr-TR': trMessages,
       'uk-UA': ukMessages,
       'vi-VN': viMessages,
+      'th-TH': thMessages,
       'zh-CN': zhHansMessages,
       'zh-TW': zhHantMessages,
     };

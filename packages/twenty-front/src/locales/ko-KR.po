@@ -14109,6 +14109,11 @@ msgstr "텍스트가 클립보드에 복사되었습니다"
 msgid "Text Editor"
 msgstr "텍스트 편집기"
 
+#. js-lingui-id: SUr44j
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Thai"
+msgstr ""
+
 #. js-lingui-id: oVH0Mt
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 msgid "The API endpoint for your OpenAI-compatible provider"
@@ -14215,10 +14220,10 @@ msgstr "도메인의 이름"
 msgid "The name of your organization"
 msgstr "조직의 이름"
 
-#. js-lingui-id: L97sPr
+#. js-lingui-id: 26Pii1
 #: src/pages/not-found/NotFound.tsx
-msgid "The page you're seeking is either gone or never was. Let's get you back on track"
-msgstr "찾고 계신 페이지는 이미 사라졌거나 존재하지 않습니다. 다시 정상화해 드리겠습니다"
+msgid "The page you're seeking is either gone or never there. Let's get you back on track!"
+msgstr ""
 
 #. js-lingui-id: jrCR2X
 #: src/modules/workflow/workflow-trigger/components/WorkflowEditTriggerManual.tsx

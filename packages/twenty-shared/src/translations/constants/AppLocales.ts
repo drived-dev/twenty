@@ -32,6 +32,7 @@ export const APP_LOCALES = {
   'vi-VN': 'vi-VN',
   'zh-CN': 'zh-CN',
   'zh-TW': 'zh-TW',
+  'th-TH': 'th-TH',
 } as const;
 
 export type AppLocale = keyof typeof APP_LOCALES;
