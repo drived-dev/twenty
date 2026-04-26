@@ -1,6 +1,5 @@
 import { Trans, useLingui } from '@lingui/react/macro';
 import { lazy, Suspense } from 'react';
-import { AppPath } from 'twenty-shared/types';
 
 const SignInBackgroundMockPage = lazy(() =>
   import('@/sign-in-background-mock/components/SignInBackgroundMockPage').then(
@@ -11,7 +10,6 @@ const SignInBackgroundMockPage = lazy(() =>
 import { RootStackingContextZIndices } from '@/ui/layout/constants/RootStackingContextZIndices';
 import { PageTitle } from '@/ui/utilities/page-title/components/PageTitle';
 import { styled } from '@linaria/react';
-import { MainButton } from 'twenty-ui/input';
 import {
   AnimatedPlaceholder,
   AnimatedPlaceholderEmptyTextContainer,
@@ -19,7 +17,6 @@ import {
   AnimatedPlaceholderErrorSubTitle,
   AnimatedPlaceholderErrorTitle,
 } from 'twenty-ui/layout';
-import { UndecoratedLink } from 'twenty-ui/navigation';
 import { themeCssVariables } from 'twenty-ui/theme-constants';
 
 const StyledBackDrop = styled.div`
@@ -56,16 +53,16 @@ export const NotFound = () => {
             </AnimatedPlaceholderErrorTitle>
             <AnimatedPlaceholderErrorSubTitle>
               <Trans>
-                The page you're seeking is either gone or never there. Let's get
-                you back on track!
+                The page you're seeking is either gone or never was. Let's get
+                you back on track
               </Trans>
             </AnimatedPlaceholderErrorSubTitle>
           </AnimatedPlaceholderEmptyTextContainer>
-          <StyledButtonContainer>
+          {/* <StyledButtonContainer>
             <UndecoratedLink to={AppPath.Index}>
               <MainButton title={t`Back to content`} fullWidth />
             </UndecoratedLink>
-          </StyledButtonContainer>
+          </StyledButtonContainer> */}
         </AnimatedPlaceholderErrorContainer>
       </StyledBackDrop>
       <Suspense fallback={null}>
