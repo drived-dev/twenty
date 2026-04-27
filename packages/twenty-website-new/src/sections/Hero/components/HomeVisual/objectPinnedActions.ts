@@ -2,7 +2,7 @@ import type { HeroNavbarActionType } from '../../types/HeroHomeData';
 
 // Each object registers its own pinned commands — these render to the left of
 // the New Record button once the chat has created/revealed the object. The
-// action shapes are intentionally identical to the real Twenty command-menu
+// action shapes are intentionally identical to the real Mobius command-menu
 // item model (label + icon) so the mock lines up with what the assistant
 // announces in the chat paragraph. Kept in sync with the source files in
 // editorData.ts under src/command-menu-items/.

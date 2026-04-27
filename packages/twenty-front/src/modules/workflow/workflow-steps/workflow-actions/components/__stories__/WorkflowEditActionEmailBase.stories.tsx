@@ -59,7 +59,7 @@ const CONFIGURED_SEND_EMAIL_ACTION: WorkflowSendEmailAction = {
         cc: '',
         bcc: '',
       },
-      subject: 'Welcome to Twenty!',
+      subject: 'Welcome to Mobius!',
       body: 'Dear Tim,\n\nWelcome to Twenty! We are excited to have you on board.\n\nBest regards,\nThe Team',
       files: [],
       inReplyTo: '',
@@ -185,7 +185,7 @@ export const Configured: Story = {
     const emailInput = await canvas.findByText('test@twenty.com');
     expect(emailInput).toBeVisible();
 
-    const subjectInput = await canvas.findByText('Welcome to Twenty!');
+    const subjectInput = await canvas.findByText('Welcome to Mobius!');
     expect(subjectInput).toBeVisible();
   },
 };

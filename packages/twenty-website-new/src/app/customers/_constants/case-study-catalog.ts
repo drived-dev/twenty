@@ -63,7 +63,7 @@ export const CASE_STUDY_CATALOG_ENTRIES: CaseStudyCatalogEntry[] = [
     },
     catalogCard: {
       summary:
-        "Nine Dots put Twenty at the center of Homeseller's stack with APIs, automation, and AI on top of WhatsApp-heavy operations.",
+        "Nine Dots put Mobius at the center of Homeseller's stack with APIs, automation, and AI on top of WhatsApp-heavy operations.",
       date: 'Jul 2025',
       coverImageSrc:
         'https://images.unsplash.com/photo-1733244766159-f58f4184fd38?w=1600&q=80',
@@ -117,7 +117,7 @@ export const CASE_STUDY_CATALOG_ENTRIES: CaseStudyCatalogEntry[] = [
     },
     catalogCard: {
       summary:
-        'NetZero uses Twenty as a modular CRM across product lines and countries, with a roadmap into AI-assisted workflows.',
+        'NetZero uses Mobius as a modular CRM across product lines and countries, with a roadmap into AI-assisted workflows.',
       date: '2025',
       coverImageSrc:
         'https://images.unsplash.com/photo-1744830343976-ce690ba2a67c?w=1600&q=80',
@@ -165,7 +165,7 @@ export const CASE_STUDY_CATALOG_ENTRIES: CaseStudyCatalogEntry[] = [
     },
     catalogCard: {
       summary:
-        'W3villa shipped W3Grads on Twenty for AI interviews, scoring, and institution-scale workflows without rebuilding CRM plumbing.',
+        'W3villa shipped W3Grads on Mobius for AI interviews, scoring, and institution-scale workflows without rebuilding CRM plumbing.',
       date: '2025',
       coverImageSrc:
         'https://images.unsplash.com/photo-1756830231350-3b501f63c5c1?w=1600&q=80',
@@ -197,7 +197,7 @@ export const CASE_STUDY_CATALOG_ENTRIES: CaseStudyCatalogEntry[] = [
     },
     catalogCard: {
       summary:
-        'Elevate Consulting uses Twenty as the API backbone connecting billing, Teams, resourcing, and a custom front end around client and opportunity data.',
+        'Elevate Consulting uses Mobius as the API backbone connecting billing, Teams, resourcing, and a custom front end around client and opportunity data.',
       date: 'Jun 2025',
       coverImageSrc:
         'https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?w=1600&q=80',

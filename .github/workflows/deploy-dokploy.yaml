@@ -44,12 +44,16 @@ jobs:
           target: twenty
           push: true
           tags: ghcr.io/${{ github.repository }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           # Passing Nx Cloud token into Docker allows even the Internal Docker build to stay cached
           build-args: |
             NX_CLOUD_ACCESS_TOKEN=${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
-      # Trigger your Dokploy instance to redeploy
       - name: Trigger Dokploy Webhook
         run: |
           curl -X POST "${{ secrets.DOKPLOY_WEBHOOK_URL }}" \
-               -H "Authorization: Bearer ${{ secrets.DOKPLOY_TOKEN }}"
+               -H "Authorization: Bearer ${{ secrets.DOKPLOY_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               -H "X-GitHub-Event: push" \
+               -d '{"ref": "${{ github.ref }}"}'

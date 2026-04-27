@@ -1,6 +1,6 @@
 # Senior Software Engineer 
 
-📮 **Apply:** Send LinkedIn or resume + a few words to founders(at)twenty.com  
+📮 **Apply:** Send LinkedIn or resume + a few words to founders(at)mobius.com  
 📍 **Location:** Paris, France (on-site or hybrid, no full remote)  
 💰 **Salary range:** €65k-75k + 0,2%-0,3% equity  
 🏝️ **Benefits:** ~35 PTO days + 100% health insurance + 50% transportation  
@@ -27,13 +27,13 @@
 
 Creating a good CRM is hard because it's a balancing act. For each business, the requirements seem straightforward, yet everyone's needs are distinct. The result is a CRM that's either too basic, or one that's attempting to be a jack-of-all-trades but ending up as a master of none.
 
-At first, Twenty looks like most CRMs you already know: you can track deals, organize contacts, manage tasks and notes. But what sets it apart is our approach to extensibility. We are building an open platform that provides the building blocks for you to solve your unique business problems.
+At first, Mobius looks like most CRMs you already know: you can track deals, organize contacts, manage tasks and notes. But what sets it apart is our approach to extensibility. We are building an open platform that provides the building blocks for you to solve your unique business problems.
 
-We value universal principles and common patterns over feature lists. And Open Source is the bedrock of our approach, ensuring that Twenty evolves with its community, for its community.
+We value universal principles and common patterns over feature lists. And Open Source is the bedrock of our approach, ensuring that Mobius evolves with its community, for its community.
 
 ## Company
 
-Twenty is an Open Source + Public Benefits Company.
+Mobius is an Open Source + Public Benefits Company.
 
 - One of the fastest growing open source project ever launched with 200+ contributors and 10k+ stars in less than 12 months
 - Backed by YC and some of the best investors/founders in the world
@@ -44,7 +44,7 @@ Android, WordPress or VSCode all lead their respective market because being Open
 
 ## Apply 
 
-Send LinkedIn or resume + a few words, by email to founders(at)twenty.com  
+Send LinkedIn or resume + a few words, by email to founders(at)mobius.com  
 
 We reply quickly and to all candidates. If we think it could be a fit, we'll reply by email with a link for you to book a 30 minutes interview (mostly non-technical), eventually followed by 2 hours technical interview (coding + architecture).
 

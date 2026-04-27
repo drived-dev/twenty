@@ -10,7 +10,7 @@ const SIGNOFF_HEADING = [
 ];
 
 const SIGNOFF_BODY = {
-  text: 'Join the teams that chose to own their CRM.\nStart building with Twenty today.',
+  text: 'Join the teams that chose to own their CRM.\nStart building with Mobius today.',
 };
 
 export function CustomersCaseStudySignoff() {

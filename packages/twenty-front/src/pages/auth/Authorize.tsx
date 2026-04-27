@@ -37,7 +37,7 @@ const StyledAppsContainer = styled.div`
 
 const StyledText = styled.div`
   color: ${themeCssVariables.font.color.primary};
-  font-family: 'Inter';
+  font-family: 'IBM Plex Sans';
   font-size: ${themeCssVariables.font.size.lg};
   font-weight: ${themeCssVariables.font.weight.semiBold};
   padding: ${themeCssVariables.spacing[6]} 0px;

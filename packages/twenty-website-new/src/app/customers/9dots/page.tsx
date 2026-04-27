@@ -17,7 +17,7 @@ const CASE_STUDY: CaseStudyData = {
     title:
       'Homeseller, WhatsApp, and a CRM built around the business | Nine Dots & Twenty',
     description:
-      'How Nine Dots Ventures rebuilt a Singapore real estate agency on Twenty with APIs, n8n, Grafana, and AI on top of 2,000+ WhatsApp messages a day.',
+      'How Nine Dots Ventures rebuilt a Singapore real estate agency on Mobius with APIs, n8n, Grafana, and AI on top of 2,000+ WhatsApp messages a day.',
   },
   hero: {
     readingTime: '9 min',
@@ -68,7 +68,7 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'control hub', fontFamily: 'sans' },
       ],
       paragraphs: [
-        "Nine Dots rebuilt Homeseller's operations on Twenty, with a custom data model shaped around their sales flow. Because Twenty is open and everything is accessible via API, they connected it to what the business actually needed: n8n for automated workflows (in-app workflows were not available at that time), Grafana for live dashboards fed from Twenty, and a custom AI layer to parse and extract structured insights from more than 2,000 WhatsApp messages a day.",
+        "Nine Dots rebuilt Homeseller's operations on Twenty, with a custom data model shaped around their sales flow. Because Mobius is open and everything is accessible via API, they connected it to what the business actually needed: n8n for automated workflows (in-app workflows were not available at that time), Grafana for live dashboards fed from Twenty, and a custom AI layer to parse and extract structured insights from more than 2,000 WhatsApp messages a day.",
         'Homeseller kept their habits. WhatsApp stayed WhatsApp. What changed is that everything flowing through those conversations now lands in a structured system, tracked, classified, and visible in real time.',
       ],
       callout:
@@ -83,7 +83,7 @@ const CASE_STUDY: CaseStudyData = {
       ],
       paragraphs: [
         'About 150 hours per month saved in manual operations. Real-time metrics for the business owner. Growth readiness without adding operational headcount. A team that can answer questions that used to take days to piece together.',
-        'The full rollout landed in July 2025. Since then, Nine Dots built a Smart Assistant on top of the system, nudging agents with tasks, reminders, and on-demand market analysis. Some agents never open Twenty directly, yet they are powered by it, outperforming peers on manual processes alone. By Q1 2026, Homeseller had recorded its best sales quarter ever.',
+        'The full rollout landed in July 2025. Since then, Nine Dots built a Smart Assistant on top of the system, nudging agents with tasks, reminders, and on-demand market analysis. Some agents never open Mobius directly, yet they are powered by it, outperforming peers on manual processes alone. By Q1 2026, Homeseller had recorded its best sales quarter ever.',
       ],
     },
   ],
@@ -94,7 +94,7 @@ const CASE_STUDY: CaseStudyData = {
   ],
   catalogCard: {
     summary:
-      "Nine Dots put Twenty at the center of Homeseller's stack with APIs, automation, and AI on top of WhatsApp-heavy operations.",
+      "Nine Dots put Mobius at the center of Homeseller's stack with APIs, automation, and AI on top of WhatsApp-heavy operations.",
     date: 'Jul 2025',
   },
 };

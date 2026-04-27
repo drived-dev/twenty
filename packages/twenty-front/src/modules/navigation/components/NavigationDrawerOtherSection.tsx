@@ -1,10 +1,9 @@
 import { useLingui } from '@lingui/react/macro';
 import { SettingsPath } from 'twenty-shared/types';
-import { IconHelpCircle, IconSettings } from 'twenty-ui/display';
+import { IconSettings } from 'twenty-ui/display';
 import { AnimatedExpandableContainer } from 'twenty-ui/layout';
 
 import { currentWorkspaceMemberState } from '@/auth/states/currentWorkspaceMemberState';
-import { getDocumentationUrl } from '@/support/utils/getDocumentationUrl';
 import { useAtomStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomStateValue';
 
 import { NavigationDrawerAnimatedCollapseWrapper } from '@/ui/navigation/navigation-drawer/components/NavigationDrawerAnimatedCollapseWrapper';
@@ -52,13 +51,13 @@ export const NavigationDrawerOtherSection = () => {
           Icon={IconSettings}
           onClick={handleSettingsClick}
         />
-        <NavigationDrawerItem
+        {/* <NavigationDrawerItem
           label={t`Documentation`}
           to={getDocumentationUrl({
             locale: currentWorkspaceMember?.locale,
           })}
           Icon={IconHelpCircle}
-        />
+        /> */}
       </AnimatedExpandableContainer>
     </NavigationDrawerSection>
   );

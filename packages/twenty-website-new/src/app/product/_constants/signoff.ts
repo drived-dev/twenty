@@ -7,6 +7,6 @@ export const SIGNOFF_DATA: SignoffDataType = {
     { text: 'Twenty?', fontFamily: 'sans' },
   ],
   body: {
-    text: 'Join the teams that chose to own their CRM. Start building with Twenty today.',
+    text: 'Join the teams that chose to own their CRM. Start building with Mobius today.',
   },
 };

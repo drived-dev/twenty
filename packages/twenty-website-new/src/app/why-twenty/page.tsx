@@ -60,7 +60,7 @@ const sectionCrosshairRight = {
 };
 
 export const metadata: Metadata = {
-  title: 'Why Twenty | Twenty',
+  title: 'Why Mobius | Twenty',
   description:
     'Most packaged software makes companies more similar. Learn why the future of CRM is built, not bought.',
 };

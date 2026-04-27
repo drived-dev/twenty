@@ -6,6 +6,6 @@ export const ENGAGEMENT_BAND_DATA: EngagementBandDataType = {
     fontFamily: 'serif',
   },
   body: {
-    text: 'Find the right partner to implement, customize, and tailor Twenty to your team.',
+    text: 'Find the right partner to implement, customize, and tailor Mobius to your team.',
   },
 };

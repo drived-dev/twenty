@@ -15,9 +15,9 @@ const PLACEHOLDER_HERO =
 const CASE_STUDY: CaseStudyData = {
   meta: {
     title:
-      'When your CRM is the product: W3Grads on Twenty | W3villa Technologies',
+      'When your CRM is the product: W3Grads on Mobius | W3villa Technologies',
     description:
-      'How W3villa Technologies shipped W3Grads, an AI mock interview platform for institutions, on Twenty as the operational backbone.',
+      'How W3villa Technologies shipped W3Grads, an AI mock interview platform for institutions, on Mobius as the operational backbone.',
   },
   hero: {
     readingTime: '8 min',
@@ -56,8 +56,8 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'plumbing', fontFamily: 'sans' },
       ],
       paragraphs: [
-        'W3villa built W3Grads (w3grads.com), an AI-powered mock interview platform for universities and training institutes, using Twenty as its operational backbone.',
-        'The key decision was not to build everything from scratch. Twenty covers the data model, permissions, authentication, and workflow engine, the parts that would have taken months to rebuild, so the team could focus on product-specific logic.',
+        'W3villa built W3Grads (w3grads.com), an AI-powered mock interview platform for universities and training institutes, using Mobius as its operational backbone.',
+        'The key decision was not to build everything from scratch. Mobius covers the data model, permissions, authentication, and workflow engine, the parts that would have taken months to rebuild, so the team could focus on product-specific logic.',
         'When a student registers via QR at a campus event, the system assigns a plan, generates an interview session, and sends a link. The AI conducts the interview, scores the candidate, and classifies the result. Faculty see where each student stands without manually reviewing every session. Building and iterating on these workflows was faster with AI in the loop.',
       ],
     },
@@ -95,7 +95,7 @@ const CASE_STUDY: CaseStudyData = {
   ],
   catalogCard: {
     summary:
-      'W3villa shipped W3Grads on Twenty for AI interviews, scoring, and institution-scale workflows without rebuilding CRM plumbing.',
+      'W3villa shipped W3Grads on Mobius for AI interviews, scoring, and institution-scale workflows without rebuilding CRM plumbing.',
     date: '2025',
   },
 };

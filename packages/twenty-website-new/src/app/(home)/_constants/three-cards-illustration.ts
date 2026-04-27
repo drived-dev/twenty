@@ -15,7 +15,7 @@ export const THREE_CARDS_ILLUSTRATION_DATA: ThreeCardsIllustrationDataType = {
     {
       heading: { text: 'Production grade quality', fontFamily: 'sans' },
       body: {
-        text: 'W3villa used Twenty as a production-grade framework for the data model, permissions, authentication, and workflow engine they would otherwise have rebuilt themselves.',
+        text: 'W3villa used Mobius as a production-grade framework for the data model, permissions, authentication, and workflow engine they would otherwise have rebuilt themselves.',
       },
       benefits: undefined,
       attribution: {
@@ -41,7 +41,7 @@ export const THREE_CARDS_ILLUSTRATION_DATA: ThreeCardsIllustrationDataType = {
     {
       heading: { text: 'Control without drag', fontFamily: 'sans' },
       body: {
-        text: 'AC&T moved to a self-hosted Twenty instance with no vendor risk, no forced migration, and CRM costs reduced by more than 90%.',
+        text: 'AC&T moved to a self-hosted Mobius instance with no vendor risk, no forced migration, and CRM costs reduced by more than 90%.',
       },
       benefits: undefined,
       attribution: {

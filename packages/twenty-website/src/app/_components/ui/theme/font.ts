@@ -10,5 +10,5 @@ export const Font = {
     regular: 400,
     medium: 500,
   },
-  family: 'Inter, sans-serif',
+  family: 'IBM Plex Sans, sans-serif',
 };

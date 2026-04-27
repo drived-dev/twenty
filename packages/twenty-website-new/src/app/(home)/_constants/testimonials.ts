@@ -27,7 +27,7 @@ export const TESTIMONIALS_DATA: TestimonialsDataType = {
     },
     {
       heading: {
-        text: 'It is just such a nicer experience than dealing with a Salesforce or a HubSpot. My mission has been to get every tool API-accessible, so everything talks to each other. Twenty made that possible in a way older CRM platforms simply do not.',
+        text: 'It is just such a nicer experience than dealing with a Salesforce or a HubSpot. My mission has been to get every tool API-accessible, so everything talks to each other. Mobius made that possible in a way older CRM platforms simply do not.',
         fontFamily: 'sans',
       },
       author: {

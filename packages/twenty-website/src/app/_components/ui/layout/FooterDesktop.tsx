@@ -79,7 +79,7 @@ export const FooterDesktop = () => {
       >
         <LeftSideFooter>
           <Logo />
-          <div>The #1 Open Source CRM</div>
+          <div>The AI-powered CRM</div>
         </LeftSideFooter>
         <RightSideFooter>
           <RightSideFooterColumn>
@@ -127,8 +127,8 @@ export const FooterDesktop = () => {
         }}
       >
         <div>
-          <span style={{ fontFamily: 'Inter, sans-serif' }}>©</span>
-          {new Date().getFullYear()} Twenty PBC
+          <span style={{ fontFamily: 'IBM Plex Sans, sans-serif' }}>©</span>
+          {new Date().getFullYear()} Mobius PBC
         </div>
         <div
           style={{

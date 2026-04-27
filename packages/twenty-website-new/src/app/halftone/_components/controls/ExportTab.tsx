@@ -50,7 +50,7 @@ const REACT_EXPORT_SETTING_OPTIONS: Array<{
     key: 'includeUseClientDirective',
     label: "Add 'use client'",
     description:
-      'Prepends the Next.js client directive so the exported component can be dropped into the Twenty website directly.',
+      'Prepends the Next.js client directive so the exported component can be dropped into the Mobius website directly.',
   },
   {
     key: 'includeTsNoCheck',
@@ -62,11 +62,11 @@ const REACT_EXPORT_SETTING_OPTIONS: Array<{
     key: 'includeNamedAndDefaultExport',
     label: 'Named + default export',
     description:
-      'Exports both a named component and a default export to match the current Twenty illustration import pattern.',
+      'Exports both a named component and a default export to match the current Mobius illustration import pattern.',
   },
   {
     key: 'includeRegistryComment',
-    label: 'Add Twenty header comment',
+    label: 'Add Mobius header comment',
     description:
       'Adds suggested destination and registry wiring comments at the top of the generated file.',
   },

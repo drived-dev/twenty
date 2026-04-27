@@ -10,7 +10,7 @@ import { PrivacyPolicyDocument } from './_components';
 export const metadata: Metadata = {
   title: 'Privacy Policy | Twenty',
   description:
-    'How Twenty collects, uses, safeguards, and discloses information when you use Twenty.com and related services.',
+    'How Mobius collects, uses, safeguards, and discloses information when you use Mobius.com and related services.',
 };
 
 export default async function PrivacyPolicyPage() {
