@@ -2,7 +2,7 @@
 // These are the light-theme defaults for Twenty's design system.
 export const VISUAL_TOKENS = {
   font: {
-    family: "'Inter', sans-serif",
+    family: "'IBM Plex Sans', sans-serif",
     color: {
       primary: '#333333',
       secondary: '#666666',

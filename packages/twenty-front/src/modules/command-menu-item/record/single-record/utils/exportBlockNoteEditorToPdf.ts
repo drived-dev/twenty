@@ -6,25 +6,25 @@ import {
 import { Font, pdf } from '@react-pdf/renderer';
 import { saveAs } from 'file-saver';
 
-const registerInterFonts = (() => {
+const registerIbmPlexSansThaiFonts = (() => {
   let registrationPromise: Promise<void> | null = null;
 
   return () => {
     if (!registrationPromise) {
       registrationPromise = Promise.resolve().then(() => {
         Font.register({
-          family: 'Inter',
+          family: 'IBM Plex Sans Thai',
           fonts: [
             {
-              src: 'https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf',
+              src: 'https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8DtwnZcI.ttf',
               fontWeight: 400,
             },
             {
-              src: 'https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf',
+              src: 'https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbehAW78.ttf',
               fontWeight: 500,
             },
             {
-              src: 'https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf',
+              src: 'https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbehAW78.ttf',
               fontWeight: 600,
             },
           ],
@@ -39,7 +39,7 @@ export const exportBlockNoteEditorToPdf = async (
   parsedBody: PartialBlock[],
   filename: string,
 ) => {
-  await registerInterFonts();
+  await registerIbmPlexSansThaiFonts();
 
   const editor = BlockNoteEditor.create({
     initialContent: parsedBody,

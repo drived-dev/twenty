@@ -127,7 +127,7 @@ export const FooterDesktop = () => {
         }}
       >
         <div>
-          <span style={{ fontFamily: 'Inter, sans-serif' }}>©</span>
+          <span style={{ fontFamily: 'IBM Plex Sans, sans-serif' }}>©</span>
           {new Date().getFullYear()} Mobius PBC
         </div>
         <div

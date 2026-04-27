@@ -28,7 +28,7 @@ const StyledBanner = styled.div<{
     return themeCssVariables.font.color.inverted;
   }};
   display: flex;
-  font-family: Inter;
+  font-family: 'IBM Plex Sans';
   font-size: ${themeCssVariables.font.size.md};
   font-style: normal;
   font-weight: ${themeCssVariables.font.weight.medium};
