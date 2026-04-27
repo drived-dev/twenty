@@ -3895,8 +3895,8 @@ msgstr "Join table linking message channel message associations to message folde
 
 #. js-lingui-id: PviVyk
 #: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
-msgid "Join your team on Twenty"
-msgstr "Join your team on Twenty"
+msgid "Join your team on Mobius"
+msgstr "Join your team on Mobius"
 
 #. js-lingui-id: WNfJ8M
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-connected-account-standard-flat-field-metadata.util.ts
@@ -8051,8 +8051,8 @@ msgstr "Wednesday"
 
 #. js-lingui-id: TVkCrJ
 #: src/engine/core-modules/email-verification/services/email-verification.service.ts
-msgid "Welcome to Twenty: Please Confirm Your Email"
-msgstr "Welcome to Twenty: Please Confirm Your Email"
+msgid "Welcome to Mobius: Please Confirm Your Email"
+msgstr "Welcome to Mobius: Please Confirm Your Email"
 
 #. js-lingui-id: OHlJ1X
 #: src/engine/metadata-modules/page-layout-widget/utils/validate-widget-grid-position.util.ts
