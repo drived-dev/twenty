@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
 
 const StyledSectionTitle = styled.h3`
   color: #333;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin: 0 0 4px 0;
@@ -21,7 +21,7 @@ const StyledSectionTitle = styled.h3`
 
 const StyledSectionSubtitle = styled.p`
   color: #818181;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 13px;
   font-weight: 400;
   margin: 0 0 12px 0;
@@ -59,14 +59,14 @@ const StyledTextContainer = styled.div`
 
 const StyledTitle = styled.span`
   color: #333;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 14px;
   font-weight: 500;
 `;
 
 const StyledDescription = styled.span`
   color: #818181;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 13px;
 `;
 
@@ -80,7 +80,7 @@ const StyledLink = styled.a`
   cursor: pointer;
   display: inline-flex;
   flex-shrink: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 13px;
   font-weight: 500;
   gap: 4px;
@@ -111,7 +111,7 @@ const StyledConnectedStatus = styled.span`
   color: #fff;
   display: inline-flex;
   flex-shrink: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 13px;
   font-weight: 500;
   gap: 6px;

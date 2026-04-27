@@ -4,8 +4,8 @@ import { useSearchParams } from 'react-router-dom';
 import { AppPath } from 'twenty-shared/types';
 
 import { useRedirect } from '@/domain-manager/hooks/useRedirect';
+import { useMutation, useQuery } from '@apollo/client/react';
 import { Trans, useLingui } from '@lingui/react/macro';
-import { useQuery, useMutation } from '@apollo/client/react';
 import { isNonEmptyString } from '@sniptt/guards';
 import { isDefined } from 'twenty-shared/utils';
 import { Avatar } from 'twenty-ui/display';
@@ -37,7 +37,7 @@ const StyledAppsContainer = styled.div`
 
 const StyledText = styled.div`
   color: ${themeCssVariables.font.color.primary};
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans Thai';
   font-size: ${themeCssVariables.font.size.lg};
   font-weight: ${themeCssVariables.font.weight.semiBold};
   padding: ${themeCssVariables.spacing[6]} 0px;
