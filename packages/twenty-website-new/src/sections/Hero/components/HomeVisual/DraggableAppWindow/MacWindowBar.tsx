@@ -33,7 +33,7 @@ const BarRoot = styled.div<{ $isDragging: boolean }>`
 
 const Title = styled.span`
   color: ${TITLE_COLOR};
-  font-family: 'Inter', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 12px;
   font-weight: 500;
   justify-self: center;

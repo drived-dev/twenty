@@ -52,7 +52,7 @@ const StyledContainer = styled.div<{
   & .react-datepicker {
     border-color: ${themeCssVariables.border.color.light};
     background: transparent;
-    font-family: 'Inter';
+    font-family: 'IBM Plex Sans';
     font-size: ${themeCssVariables.font.size.md};
     border: none;
     display: block;
