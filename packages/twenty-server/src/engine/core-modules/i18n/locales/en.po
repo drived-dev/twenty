@@ -3893,7 +3893,7 @@ msgstr "Join column name is required."
 msgid "Join table linking message channel message associations to message folders"
 msgstr "Join table linking message channel message associations to message folders"
 
-#. js-lingui-id: PviVyk
+#. js-lingui-id: YF8mNn
 #: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
 msgid "Join your team on Mobius"
 msgstr "Join your team on Mobius"
@@ -8049,7 +8049,7 @@ msgstr "Webhook not found."
 msgid "Wednesday"
 msgstr "Wednesday"
 
-#. js-lingui-id: TVkCrJ
+#. js-lingui-id: J/ssLL
 #: src/engine/core-modules/email-verification/services/email-verification.service.ts
 msgid "Welcome to Mobius: Please Confirm Your Email"
 msgstr "Welcome to Mobius: Please Confirm Your Email"

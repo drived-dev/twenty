@@ -2672,7 +2672,7 @@ msgstr ""
 msgid "by {author}"
 msgstr ""
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: b8bHUy
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "By using Mobius, you agree to the"
 msgstr ""
