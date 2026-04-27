@@ -174,12 +174,12 @@ msgid "Create a new workspace"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsMobius.tsx
+#: src/components/WhatIsTwenty.tsx
 msgid "What is Mobius?"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsMobius.tsx
+#: src/components/WhatIsTwenty.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 msgstr ""
 
