@@ -102,7 +102,7 @@ export default function EnterpriseActivatePage() {
                 marginBottom: '0.5rem',
               }}
             >
-              Copy this key and paste it into your Twenty self-hosted instance
+              Copy this key and paste it into your Mobius self-hosted instance
               settings.
             </p>
 
@@ -158,7 +158,7 @@ export default function EnterpriseActivatePage() {
               >
                 <li>Copy the enterprise key above</li>
                 <li>
-                  Open your Twenty self-hosted instance Settings &rarr;
+                  Open your Mobius self-hosted instance Settings &rarr;
                   Enterprise
                 </li>
                 <li>Paste the key and click Activate</li>

@@ -266,7 +266,7 @@ const WRAPUP_PARAGRAPH: StreamingSegment[] = [
       href="https://twenty.com/developers"
       onClick={(event) => event.preventDefault()}
     >
-      Twenty app-building docs
+      Mobius app-building docs
     </ReferenceLink>,
   ),
   text('.'),

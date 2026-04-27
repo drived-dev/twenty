@@ -15,7 +15,7 @@ import { styled } from '@linaria/react';
 export const metadata: Metadata = {
   title: 'Enterprise activation | Twenty',
   description:
-    'Complete activation for your Twenty self-hosted enterprise license.',
+    'Complete activation for your Mobius self-hosted enterprise license.',
 };
 
 const ENTERPRISE_ACTIVATE_HEADING: HeadingType[] = [
@@ -24,7 +24,7 @@ const ENTERPRISE_ACTIVATE_HEADING: HeadingType[] = [
 ];
 
 const ENTERPRISE_ACTIVATE_BODY = {
-  text: 'Your checkout is complete. Follow the steps below to copy your license key into your Twenty instance.',
+  text: 'Your checkout is complete. Follow the steps below to copy your license key into your Mobius instance.',
 };
 
 const ActivatePageContent = styled.section`

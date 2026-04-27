@@ -29,7 +29,7 @@ const HEADING = [
 ];
 
 const BODY = {
-  text: 'Meet the teams who shaped Twenty into their own CRM with self-hosted deployments, AI-assisted workflows, and API-first product stacks.',
+  text: 'Meet the teams who shaped Mobius into their own CRM with self-hosted deployments, AI-assisted workflows, and API-first product stacks.',
 };
 
 const Section = styled.section`

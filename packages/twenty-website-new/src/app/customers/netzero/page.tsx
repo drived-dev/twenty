@@ -16,7 +16,7 @@ const CASE_STUDY: CaseStudyData = {
   meta: {
     title: 'A CRM that grows with you | NetZero & Twenty',
     description:
-      'How NetZero uses Twenty across carbon credits, agricultural products, and franchised industrial systems with a modular CRM and a roadmap toward AI-assisted workflows.',
+      'How NetZero uses Mobius across carbon credits, agricultural products, and franchised industrial systems with a modular CRM and a roadmap toward AI-assisted workflows.',
   },
   hero: {
     readingTime: '8 min',
@@ -72,7 +72,7 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'advanced', fontFamily: 'sans' },
       ],
       paragraphs: [
-        "Olivier recognizes that NetZero's current use of Twenty is still relatively simple: workflows and integrations are not yet as deep as he eventually wants, because he prioritized getting foundations right first.",
+        "Olivier recognizes that NetZero's current use of Mobius is still relatively simple: workflows and integrations are not yet as deep as he eventually wants, because he prioritized getting foundations right first.",
         'What is planned is significant. NetZero has a data lake, online forms, and multiple internal systems that he wants to connect to Twenty. The pipes are there; the next step is automations that tie them together.',
         'What is coming in April 2026 is what he has been waiting for: AI-assisted workflow creation, describing what he needs and iterating from there instead of building complex logic from scratch. For a founder who runs the CRM himself, that changes what is realistically possible.',
       ],
@@ -85,7 +85,7 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'paying off', fontFamily: 'sans' },
       ],
       paragraphs: [
-        'While NetZero still runs a second CRM in parallel for WhatsApp-heavy operations with farmers in Brazil, they expect to migrate all of it to Twenty as features and the ecosystem grow. Already, their structured, multinational pipeline is powered by Twenty.',
+        'While NetZero still runs a second CRM in parallel for WhatsApp-heavy operations with farmers in Brazil, they expect to migrate all of it to Mobius as features and the ecosystem grow. Already, their structured, multinational pipeline is powered by Twenty.',
         'The early bet on the architecture is holding, and upcoming AI features are expected to make it even more relevant.',
       ],
     },
@@ -98,7 +98,7 @@ const CASE_STUDY: CaseStudyData = {
   ],
   catalogCard: {
     summary:
-      'NetZero uses Twenty as a modular CRM across product lines and countries, with a roadmap into AI-assisted workflows.',
+      'NetZero uses Mobius as a modular CRM across product lines and countries, with a roadmap into AI-assisted workflows.',
     date: '2025',
   },
 };

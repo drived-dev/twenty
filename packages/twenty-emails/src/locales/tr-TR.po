@@ -49,8 +49,8 @@ msgstr "Çalışma alanı {remainingDays} {dayOrDays} içinde devre dışı bır
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Twenty kullanmaya devam etmek istiyorsanız, lütfen aboneliğinizi önümüzdeki {remainingDays} {dayOrDays} içinde güncelleyin."
+msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Mobius kullanmaya devam etmek istiyorsanız, lütfen aboneliğinizi önümüzdeki {remainingDays} {dayOrDays} içinde güncelleyin."
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -75,8 +75,8 @@ msgstr "Test e-postası"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Takımına Twenty üzerinden katıl"
+msgid "Join your team on Mobius"
+msgstr "Takımına Mobius üzerinden katıl"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -125,8 +125,8 @@ msgstr "Bu değişikliği başlatmadıysanız, lütfen hemen çalışma alanı s
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Twenty'e bağlan"
+msgid "Connect to Mobius"
+msgstr "Mobius'e bağlan"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -170,8 +170,8 @@ msgstr "Bu çalışma alanındaki tüm veriler kalıcı olarak silindi."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Twenty'yi tekrar kullanmak isterseniz, yeni bir çalışma alanı oluşturabilirsiniz."
+msgid "If you wish to use Mobius again, you can create a new workspace."
+msgstr "Mobius'yi tekrar kullanmak isterseniz, yeni bir çalışma alanı oluşturabilirsiniz."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -179,12 +179,12 @@ msgid "Create a new workspace"
 msgstr "Yeni bir çalışma alanı oluştur"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Twenty nedir?"
+#: src/components/WhatIsMobius.tsx
+msgid "What is Mobius?"
+msgstr "Mobius nedir?"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
+#: src/components/WhatIsMobius.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 msgstr "Bu bir CRM, işletmelerin müşteri verilerini ve ilişkilerini verimli bir şekilde yönetmelerine yardımcı olan bir yazılım."
 
@@ -195,8 +195,8 @@ msgstr "Web Sitesi"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Twenty'nin web sitesini ziyaret edin"
+msgid "Visit Mobius's website"
+msgstr "Mobius'nin web sitesini ziyaret edin"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -205,8 +205,8 @@ msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Twenty'nin GitHub deposunu ziyaret edin"
+msgid "Visit Mobius's GitHub repository"
+msgstr "Mobius'nin GitHub deposunu ziyaret edin"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -215,8 +215,8 @@ msgstr "Kullanıcı Rehberi"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Twenty'nin kullanıcı rehberini okuyun"
+msgid "Read Mobius's user guide"
+msgstr "Mobius'nin kullanıcı rehberini okuyun"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -225,13 +225,13 @@ msgstr "Geliştiriciler"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Twenty'nin geliştirici dokümantasyonunu ziyaret edin"
+msgid "Visit Mobius's developer documentation"
+msgstr "Mobius'nin geliştirici dokümantasyonunu ziyaret edin"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Kamu Yararına Şirket"
+msgid "Mobius.com, Public Benefit Corporation"
+msgstr "Mobius.com, Kamu Yararına Şirket"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx

@@ -49,8 +49,8 @@ msgstr "Arbetsutrymmet kommer att inaktiveras om {remainingDays} {dayOrDays}, oc
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Om du vill fortsätta använda Twenty, vänligen uppdatera din prenumeration inom de nästa {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Om du vill fortsätta använda Mobius, vänligen uppdatera din prenumeration inom de nästa {remainingDays} {dayOrDays}."
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -75,8 +75,8 @@ msgstr "Test e-post"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Gå med i ditt team på Twenty"
+msgid "Join your team on Mobius"
+msgstr "Gå med i ditt team på Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -125,8 +125,8 @@ msgstr "Om du inte initierade denna förändring, vänligen kontakta ägaren av 
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Anslut till Twenty"
+msgid "Connect to Mobius"
+msgstr "Anslut till Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -170,8 +170,8 @@ msgstr "Alla data i det här arbetsutrymmet har raderats permanent."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Om du vill använda Twenty igen kan du skapa ett nytt arbetsutrymme."
+msgid "If you wish to use Mobius again, you can create a new workspace."
+msgstr "Om du vill använda Mobius igen kan du skapa ett nytt arbetsutrymme."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -179,12 +179,12 @@ msgid "Create a new workspace"
 msgstr "Skapa en ny arbetsyta"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Vad är Twenty?"
+#: src/components/WhatIsMobius.tsx
+msgid "What is Mobius?"
+msgstr "Vad är Mobius?"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
+#: src/components/WhatIsMobius.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 msgstr "Det är ett CRM, en mjukvara för att hjälpa företag att hantera sina kunddata och relationer effektivt."
 
@@ -195,8 +195,8 @@ msgstr "Webbplats"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Besök Twentys webbplats"
+msgid "Visit Mobius's website"
+msgstr "Besök Mobiuss webbplats"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -205,8 +205,8 @@ msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Besök Twentys GitHub-repositorium"
+msgid "Visit Mobius's GitHub repository"
+msgstr "Besök Mobiuss GitHub-repositorium"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -215,8 +215,8 @@ msgstr "Användarguide"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Läs Twentys användarguide"
+msgid "Read Mobius's user guide"
+msgstr "Läs Mobiuss användarguide"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -225,13 +225,13 @@ msgstr "Utvecklare"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Besök Twentys utvecklardokumentation"
+msgid "Visit Mobius's developer documentation"
+msgstr "Besök Mobiuss utvecklardokumentation"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Public Benefit Corporation"
+msgid "Mobius.com, Public Benefit Corporation"
+msgstr "Mobius.com, Public Benefit Corporation"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx

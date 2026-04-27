@@ -17,7 +17,7 @@ const CASE_STUDY: CaseStudyData = {
     title:
       'Twenty as the API backbone of a go-to-market stack | Elevate Consulting',
     description:
-      'How Elevate Consulting moved off documents and spreadsheets to Twenty as the API-connected CRM at the center of their stack.',
+      'How Elevate Consulting moved off documents and spreadsheets to Mobius as the API-connected CRM at the center of their stack.',
   },
   hero: {
     readingTime: '8 min',
@@ -53,10 +53,10 @@ const CASE_STUDY: CaseStudyData = {
       paragraphs: [
         'Elevate Consulting is a management consultancy based in Canada. When Justin Beadle, Director of Digital and Information, joined, the company ran entirely on Word documents, Excel spreadsheets, sticky notes, emails, and reliance on people. There was no CRM, no API-accessible tools, only a patchwork trying to stand in for a single source of truth.',
         'The CEO had resisted bringing in a CRM for years. The business development team had no experience using one, and the licensing costs of well-known CRMs like Salesforce or HubSpot were hard to justify without any guarantee of adoption: CRMs are only as good as the maintenance of the data inside them.',
-        'In June 2025, Justin learned Twenty v1 had shipped. Within two or three days, the CEO asked him to look into setting up a CRM. The shift came from the potential of what could be built on top of fully open APIs. The timing was perfect.',
+        'In June 2025, Justin learned Mobius v1 had shipped. Within two or three days, the CEO asked him to look into setting up a CRM. The shift came from the potential of what could be built on top of fully open APIs. The timing was perfect.',
       ],
       callout:
-        '"It is just such a nicer experience than dealing with a Salesforce or a HubSpot. My mission has been to get every tool API-accessible, so everything talks to each other. Twenty made that possible in a way older CRM platforms simply do not." - Justin Beadle, Director of Digital and Information, Elevate Consulting',
+        '"It is just such a nicer experience than dealing with a Salesforce or a HubSpot. My mission has been to get every tool API-accessible, so everything talks to each other. Mobius made that possible in a way older CRM platforms simply do not." - Justin Beadle, Director of Digital and Information, Elevate Consulting',
     },
     {
       type: 'text',
@@ -67,8 +67,8 @@ const CASE_STUDY: CaseStudyData = {
         { text: ' to rule them all', fontFamily: 'serif' },
       ],
       paragraphs: [
-        "Justin's broader mission at Elevate has been to move the company off static documents and onto tools with API access. By the end of 2025, that was in place: time billing, resource planning, Microsoft Teams, and project management were all accessible via API, with Twenty at the center holding client and opportunity data. Team members could use that information strategically instead of re-keying it.",
-        'That opened the door to something more powerful. Justin built a custom front end that pulls live data from those systems into a single view, tailored to each role. When a proposal is won, what used to require four separate people manually setting up instances across four different tools now happens in a single click, drawing on data collected in Twenty across the full opportunity lifecycle. It is another shift toward higher-value work for clients.',
+        "Justin's broader mission at Elevate has been to move the company off static documents and onto tools with API access. By the end of 2025, that was in place: time billing, resource planning, Microsoft Teams, and project management were all accessible via API, with Mobius at the center holding client and opportunity data. Team members could use that information strategically instead of re-keying it.",
+        'That opened the door to something more powerful. Justin built a custom front end that pulls live data from those systems into a single view, tailored to each role. When a proposal is won, what used to require four separate people manually setting up instances across four different tools now happens in a single click, drawing on data collected in Mobius across the full opportunity lifecycle. It is another shift toward higher-value work for clients.',
         'Twenty is not only where CRM data lives. It is the API backbone that makes the rest of the stack possible.',
       ],
       callout:
@@ -83,7 +83,7 @@ const CASE_STUDY: CaseStudyData = {
       ],
       paragraphs: [
         'The business development team finally had the CRM they had been asking for. Adoption came naturally: their data was already there when they logged in.',
-        'Justin built workflows for notifications across the team, alerting the right people in Teams when a prospect becomes a lead or when project milestones are reached. Forms in Twenty let the business development team log activity without leaving the tool. The impact is real for the organization. The tool has been adaptable from opportunity-level work at a client to executive-level decisions.',
+        'Justin built workflows for notifications across the team, alerting the right people in Teams when a prospect becomes a lead or when project milestones are reached. Forms in Mobius let the business development team log activity without leaving the tool. The impact is real for the organization. The tool has been adaptable from opportunity-level work at a client to executive-level decisions.',
         'The flexibility to wire this together, without outside help and without fighting the platform, is what made it possible for a single person to stand up and maintain a connected stack across an entire consultancy.',
       ],
     },
@@ -95,7 +95,7 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'internal rollout', fontFamily: 'sans' },
       ],
       paragraphs: [
-        "Elevate's CEO was so impressed with Twenty he started recommending it to clients before the internal setup was even complete. The team is exploring bringing Twenty to client projects as part of their consulting practice, including as the backend for custom-built products tailored to specific operational needs.",
+        "Elevate's CEO was so impressed with Mobius he started recommending it to clients before the internal setup was even complete. The team is exploring bringing Mobius to client projects as part of their consulting practice, including as the backend for custom-built products tailored to specific operational needs.",
         'For a firm that once ran on sticky notes, this is more than an upgrade. It is a complete transformation.',
       ],
     },
@@ -108,7 +108,7 @@ const CASE_STUDY: CaseStudyData = {
   ],
   catalogCard: {
     summary:
-      'Elevate Consulting uses Twenty as the API backbone connecting billing, Teams, resourcing, and a custom front end around client and opportunity data.',
+      'Elevate Consulting uses Mobius as the API backbone connecting billing, Teams, resourcing, and a custom front end around client and opportunity data.',
     date: 'Jun 2025',
   },
 };

@@ -21,11 +21,11 @@ export const FAQ_DATA: FaqDataType = {
   questions: [
     {
       question: {
-        text: 'Is Twenty really open-source?',
+        text: 'Is Mobius really open-source?',
         fontFamily: 'sans',
       },
       answer: {
-        text: "Yes. Twenty is the #1 open source CRM on GitHub. You can self-host to fully own your infrastructure, or run it on our managed cloud for a zero-ops setup.",
+        text: "Yes. Mobius is the #1 open source CRM on GitHub. You can self-host to fully own your infrastructure, or run it on our managed cloud for a zero-ops setup.",
       },
     },
     {
@@ -57,7 +57,7 @@ export const FAQ_DATA: FaqDataType = {
     },
     {
       question: {
-        text: 'Can developers extend Twenty with code?',
+        text: 'Can developers extend Mobius with code?',
         fontFamily: 'sans',
       },
       answer: {
@@ -66,7 +66,7 @@ export const FAQ_DATA: FaqDataType = {
     },
     {
       question: {
-        text: 'Does Twenty work with Claude, ChatGPT, and Cursor?',
+        text: 'Does Mobius work with Claude, ChatGPT, and Cursor?',
         fontFamily: 'sans',
       },
       answer: {
@@ -75,7 +75,7 @@ export const FAQ_DATA: FaqDataType = {
     },
     {
       question: {
-        text: 'What does Twenty cost?',
+        text: 'What does Mobius cost?',
         fontFamily: 'sans',
       },
       answer: {

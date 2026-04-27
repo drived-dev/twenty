@@ -1,5 +1,5 @@
 // Shared box-shadow tokens for floating windows inside the hero (Terminal +
-// Twenty app window). Defined once so both shells stay visually consistent.
+// Mobius app window). Defined once so both shells stay visually consistent.
 export const WINDOW_SHADOWS = {
   // Default resting state — the window is on-screen but not being interacted
   // with and not the frontmost window.

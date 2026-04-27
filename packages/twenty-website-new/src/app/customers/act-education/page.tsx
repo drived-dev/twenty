@@ -57,7 +57,7 @@ const CASE_STUDY: CaseStudyData = {
       ],
       paragraphs: [
         'They evaluated Salesforce, Zoho, Pipedrive, and SuiteCRM. Each came with the same tradeoffs: too expensive, too rigid, or too generic, and none fixed the underlying problem. They were still renting a structure they did not control.',
-        'Flycoder, a full-stack development partner, helped them set up Twenty as a self-hosted instance shaped around how AC&T actually operates. The data model centers on students, not a generic contact-and-deal pipeline. Statuses update automatically: a workflow runs nightly to keep enrollment records current. Automated email reminders cover important dates. Adding a new record takes under a minute.',
+        'Flycoder, a full-stack development partner, helped them set up Mobius as a self-hosted instance shaped around how AC&T actually operates. The data model centers on students, not a generic contact-and-deal pipeline. Statuses update automatically: a workflow runs nightly to keep enrollment records current. Automated email reminders cover important dates. Adding a new record takes under a minute.',
         'The result is a system that fits how AC&T already worked, instead of the other way around.',
       ],
     },

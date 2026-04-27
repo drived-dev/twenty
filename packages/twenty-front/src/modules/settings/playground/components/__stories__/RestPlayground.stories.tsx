@@ -21,9 +21,9 @@ const PlaygroundApiKeySetterEffect = () => {
 const openApiSpec = {
   openapi: '3.1.1',
   info: {
-    title: 'Twenty Api',
+    title: 'Mobius Api',
     description:
-      'This is a **Twenty REST/API** playground based on the **OpenAPI 3.1 specification**.',
+      'This is a **Mobius REST/API** playground based on the **OpenAPI 3.1 specification**.',
     version: '1.0.0',
   },
   servers: [
