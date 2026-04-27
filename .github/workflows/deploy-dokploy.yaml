@@ -2,7 +2,13 @@ name: Deploy to Dokploy
 on:
   push:
     branches:
-      - dev # Deploys every time you push to main
+      - dev # Deploys every time you push to dev
+  workflow_dispatch:
+    inputs:
+      nx_cloud_enabled:
+        description: "Enable Nx Cloud? (true/false) — overrides the NX_CLOUD_ENABLED repo variable"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -11,6 +17,17 @@ permissions:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+
+    # Resolve whether Nx Cloud is on or off.
+    # Priority: manual dispatch input → repo variable NX_CLOUD_ENABLED → default (true)
+    env:
+      NX_CLOUD_ON: >-
+        ${{
+          inputs.nx_cloud_enabled != '' && inputs.nx_cloud_enabled ||
+          vars.NX_CLOUD_ENABLED != '' && vars.NX_CLOUD_ENABLED ||
+          'true'
+        }}
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -20,10 +37,17 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/yarn-install
 
-      # Warm up Nx Cache (Using Nx Cloud)
-      # This ensures the Docker build is nearly instant for steps that haven't changed.
+      # Show whether Nx Cloud is active so it's visible in logs
+      - name: Nx Cloud status
+        run: |
+          echo "NX_CLOUD_ON = $NX_CLOUD_ON"
+
+      # Warm up Nx Cache (Using Nx Cloud if enabled)
+      # When disabled, Nx still runs locally — no caching, but no auth errors either.
       - name: Nx Build
         run: npx nx run-many -t build -p twenty-server twenty-front --parallel=3
+        env:
+          NX_CLOUD_ACCESS_TOKEN: ${{ env.NX_CLOUD_ON == 'true' && secrets.NX_CLOUD_ACCESS_TOKEN || '' }}
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
@@ -46,9 +70,9 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          # Passing Nx Cloud token into Docker allows even the Internal Docker build to stay cached
+          # Only pass Nx Cloud token into Docker when Nx Cloud is enabled
           build-args: |
-            NX_CLOUD_ACCESS_TOKEN=${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
+            NX_CLOUD_ACCESS_TOKEN=${{ env.NX_CLOUD_ON == 'true' && secrets.NX_CLOUD_ACCESS_TOKEN || '' }}
 
       - name: Trigger Dokploy Webhook
         run: |
