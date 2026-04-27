@@ -29,6 +29,7 @@ jobs:
         run: |
           git fetch origin i18n || true
           git checkout -B i18n origin/i18n || git checkout -b i18n
+          git merge origin/main --no-edit || true
 
       - name: Install dependencies
         uses: ./.github/actions/yarn-install
