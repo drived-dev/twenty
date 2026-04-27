@@ -1290,11 +1290,6 @@ msgstr "Advanced options"
 msgid "Advanced:"
 msgstr "Advanced:"
 
-#. js-lingui-id: 1Cox/a
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Afrikaans"
-msgstr "Afrikaans"
-
 #. js-lingui-id: 5wZlI9
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
 msgid "After a set amount of time"
@@ -2080,11 +2075,6 @@ msgstr "Apps made by other developers published on npm"
 msgid "Apps you're the developer of"
 msgstr "Apps you're the developer of"
 
-#. js-lingui-id: 8HV3WN
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Arabic"
-msgstr "Arabic"
-
 #. js-lingui-id: i19Zro
 #: src/modules/activities/files/components/DocumentViewer.tsx
 msgid "Archive files cannot be previewed. Please download the file to access its contents."
@@ -2684,8 +2674,8 @@ msgstr "by {author}"
 
 #. js-lingui-id: 8Pfllj
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Mobius, you agree to the"
-msgstr "By using Mobius, you agree to the"
+msgid "By using Twenty, you agree to the"
+msgstr "By using Twenty, you agree to the"
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -2924,11 +2914,6 @@ msgstr "Captcha (anti-bot check) is still loading, try again"
 msgid "Card"
 msgstr "Card"
 
-#. js-lingui-id: M1RLfx
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Catalan"
-msgstr "Catalan"
-
 #. js-lingui-id: K7tIrx
 #: src/modules/settings/applications/components/SettingsApplicationAboutSidebar.tsx
 msgid "Category"
@@ -3048,20 +3033,10 @@ msgstr "Check your Emails"
 msgid "Check your inbox to verify your new email address."
 msgstr "Check your inbox to verify your new email address."
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: Tn870U
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 msgid "Checkout session error. Please retry or contact Mobius team"
 msgstr "Checkout session error. Please retry or contact Mobius team"
-
-#. js-lingui-id: SviKkE
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Chinese — Simplified"
-msgstr "Chinese — Simplified"
-
-#. js-lingui-id: dzb4Ep
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Chinese — Traditional"
-msgstr "Chinese — Traditional"
 
 #. js-lingui-id: NFfUic
 #: src/pages/auth/SignInUp.tsx
@@ -4312,11 +4287,6 @@ msgstr "Customize your workspace security"
 msgid "Cyan"
 msgstr "Cyan"
 
-#. js-lingui-id: w9VTXG
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Czech"
-msgstr "Czech"
-
 #. js-lingui-id: ShUrwO
 #: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
@@ -4344,11 +4314,6 @@ msgstr "Daily Usage"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
 msgid "Danger zone"
 msgstr "Danger zone"
-
-#. js-lingui-id: Fo2vDn
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Danish"
-msgstr "Danish"
 
 #. js-lingui-id: pvnfJD
 #: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
@@ -5214,11 +5179,6 @@ msgstr "Duplicate widget"
 #: src/modules/object-record/record-field-list/record-detail-section/duplicate/components/RecordDetailDuplicatesSection.tsx
 msgid "Duplicates"
 msgstr "Duplicates"
-
-#. js-lingui-id: KIjvtr
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Dutch"
-msgstr "Dutch"
 
 #. js-lingui-id: 8zfXiN
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
@@ -6141,7 +6101,7 @@ msgstr "Error while cancelling metered tier switching."
 msgid "Error while cancelling plan switching."
 msgstr "Error while cancelling plan switching."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: 7Kq3fC
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
 msgid "Error while ending trial period. Please contact Mobius team."
 msgstr "Error while ending trial period. Please contact Mobius team."
@@ -6964,11 +6924,6 @@ msgstr "Finish Setup"
 msgid "Finished thinking"
 msgstr "Finished thinking"
 
-#. js-lingui-id: USZ2N6
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Finnish"
-msgstr "Finnish"
-
 #. js-lingui-id: hy+Mfg
 #: src/modules/workflow/workflow-trigger/utils/cron-to-human/descriptors/getDayOfWeekDescription.ts
 msgid "first"
@@ -7082,11 +7037,6 @@ msgstr "Fourth"
 msgid "Free trial credits exhausted. Subscribe now to continue using AI features."
 msgstr "Free trial credits exhausted. Subscribe now to continue using AI features."
 
-#. js-lingui-id: nLC6tu
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "French"
-msgstr "French"
-
 #. js-lingui-id: ejVYRQ
 #: src/modules/activities/emails/components/EmailComposerFields.tsx
 msgid "From"
@@ -7179,11 +7129,6 @@ msgstr "Generate Function Output"
 #: src/modules/ai/components/CodeExecutionDisplay.tsx
 msgid "Generated Files"
 msgstr "Generated Files"
-
-#. js-lingui-id: DDcvSo
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "German"
-msgstr "German"
 
 #. js-lingui-id: sqtljx
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
@@ -7296,11 +7241,6 @@ msgstr "Gray"
 msgid "Greater than or equal"
 msgstr "Greater than or equal"
 
-#. js-lingui-id: CZXzs4
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Greek"
-msgstr "Greek"
-
 #. js-lingui-id: VmkjGB
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Green"
@@ -7401,11 +7341,6 @@ msgstr "Health"
 msgid "Health Status"
 msgstr "Health Status"
 
-#. js-lingui-id: 3oTCgM
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Hebrew"
-msgstr "Hebrew"
-
 #. js-lingui-id: D+zLDD
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupsContent.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownHiddenRecordGroupsContent.tsx
@@ -7495,7 +7430,7 @@ msgid ""
 "npx create-twenty-app@latest my-twenty-app\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 msgstr ""
 "Host your workspace's customizations and overrides.\n"
 "\n"
@@ -7519,7 +7454,7 @@ msgstr ""
 "npx create-twenty-app@latest my-twenty-app\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 
 #. js-lingui-id: yY8wAv
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
@@ -7601,11 +7536,6 @@ msgstr "https://example.com/webhook"
 #: src/modules/side-panel/pages/workflow/action/components/SidePanelWorkflowSelectAction.tsx
 msgid "Human Input"
 msgstr "Human Input"
-
-#. js-lingui-id: mkWad2
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Hungarian"
-msgstr "Hungarian"
 
 #. js-lingui-id: YUJ1ey
 #: src/modules/ai/components/suggested-prompts/default-suggested-prompts.ts
@@ -8266,11 +8196,6 @@ msgstr "Is today{timeZoneAbbreviationSuffix}"
 msgid "Issuer URI"
 msgstr "Issuer URI"
 
-#. js-lingui-id: Lj7sBL
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Italian"
-msgstr "Italian"
-
 #. js-lingui-id: hgr8eo
 #: src/modules/side-panel/pages/page-layout/utils/getDateGranularityPluralLabel.ts
 msgid "items"
@@ -8285,11 +8210,6 @@ msgstr "Items to iterate over"
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Jade"
 msgstr "Jade"
-
-#. js-lingui-id: dFtidv
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Japanese"
-msgstr "Japanese"
 
 #. js-lingui-id: FVzmEZ
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobRowDropdownMenu.tsx
@@ -8354,11 +8274,6 @@ msgstr "Key/Value"
 #: src/modules/keyboard-shortcut-menu/components/KeyboardShortcutMenuDialog.tsx
 msgid "Keyboard shortcuts"
 msgstr "Keyboard shortcuts"
-
-#. js-lingui-id: h6S9Yz
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Korean"
-msgstr "Korean"
 
 #. js-lingui-id: 87a/t/
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
@@ -9239,6 +9154,11 @@ msgstr "Mission accomplished!"
 #: src/modules/side-panel/pages/page-layout/hooks/useTranslatedVisibilityLabel.ts
 msgid "Mobile"
 msgstr "Mobile"
+
+#. js-lingui-id: +VH5OJ
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "Mobius fields"
+msgstr "Mobius fields"
 
 #. js-lingui-id: scu3wk
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowAiAgentPromptTab.tsx
@@ -10362,11 +10282,6 @@ msgstr "Node"
 msgid "None"
 msgstr "None"
 
-#. js-lingui-id: 1IipHp
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Norwegian"
-msgstr "Norwegian"
-
 #. js-lingui-id: v3W9iu
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/MatchColumnsStep.tsx
 msgid "Not all columns matched"
@@ -10980,7 +10895,7 @@ msgstr "page layout widget"
 msgid "Page Name"
 msgstr "Page Name"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: 8jNlmp
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found | Mobius"
 msgstr "Page Not Found | Mobius"
@@ -11323,21 +11238,6 @@ msgstr "Plum"
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
 msgid "Plural"
 msgstr "Plural"
-
-#. js-lingui-id: trnWaw
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Polish"
-msgstr "Polish"
-
-#. js-lingui-id: 0nsqwk
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Portuguese — Brazil"
-msgstr "Portuguese — Brazil"
-
-#. js-lingui-id: xtXHeo
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Portuguese — Portugal"
-msgstr "Portuguese — Portugal"
 
 #. js-lingui-id: JQw9es
 #: src/modules/side-panel/pages/page-layout/utils/getSortLabelSuffixForFieldType.ts
@@ -12319,11 +12219,6 @@ msgstr "Roles"
 msgid "Rollover Credits"
 msgstr "Rollover Credits"
 
-#. js-lingui-id: uJc01W
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Romanian"
-msgstr "Romanian"
-
 #. js-lingui-id: vQrTaX
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
@@ -12394,11 +12289,6 @@ msgstr "Running function"
 #: src/modules/ai/components/CodeExecutionDisplay.tsx
 msgid "Running..."
 msgstr "Running..."
-
-#. js-lingui-id: nji0/X
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Russian"
-msgstr "Russian"
 
 #. js-lingui-id: +5kO8P
 #: src/pages/settings/profile/appearance/components/DateTimeSettingsCalendarStartDaySelect.tsx
@@ -13073,11 +12963,6 @@ msgstr "Sent"
 msgid "Sent and Received"
 msgstr "Sent and Received"
 
-#. js-lingui-id: 6oxz/y
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Serbian (Cyrillic)"
-msgstr "Serbian (Cyrillic)"
-
 #. js-lingui-id: fHVf32
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationConfigTab.tsx
 msgid "Server Variables"
@@ -13561,11 +13446,6 @@ msgstr "Source"
 msgid "Spaces and comma"
 msgstr "Spaces and comma"
 
-#. js-lingui-id: 65A04M
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Spanish"
-msgstr "Spanish"
-
 #. js-lingui-id: gsifzp
 #: src/modules/side-panel/pages/page-layout/utils/__tests__/shouldHideChartSetting.test.ts
 #: src/modules/side-panel/pages/page-layout/utils/__tests__/shouldHideChartSetting.test.ts
@@ -13888,11 +13768,6 @@ msgstr "Supported input types"
 msgid "Supports reasoning"
 msgstr "Supports reasoning"
 
-#. js-lingui-id: UaISq3
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Swedish"
-msgstr "Swedish"
-
 #. js-lingui-id: dpXnFC
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 msgid "Switch to Monthly"
@@ -13943,7 +13818,7 @@ msgstr "Sync with Google"
 msgid "Sync with Outlook"
 msgstr "Sync with Outlook"
 
-#. js-lingui-id: +9x4tK
+#. js-lingui-id: N0okIE
 #: src/pages/onboarding/SyncEmails.tsx
 msgid "Sync your Emails and Calendar with Mobius. Choose your privacy settings."
 msgstr "Sync your Emails and Calendar with Mobius. Choose your privacy settings."
@@ -14142,7 +14017,7 @@ msgstr "The API endpoint for your OpenAI-compatible provider"
 msgid "The AWS region for Bedrock"
 msgstr "The AWS region for Bedrock"
 
-#. js-lingui-id: HP7per
+#. js-lingui-id: m8gbR1
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
 "The base data model every Mobius workspace runs on.\n"
@@ -14171,10 +14046,10 @@ msgid ""
 "\n"
 "```bash\n"
 "cd my-twenty-app\n"
-"yarn mobius dev\n"
+"yarn twenty dev\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 msgstr ""
 "The base data model every Mobius workspace runs on.\n"
 "\n"
@@ -14202,10 +14077,10 @@ msgstr ""
 "\n"
 "```bash\n"
 "cd my-twenty-app\n"
-"yarn mobius dev\n"
+"yarn twenty dev\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 
 #. js-lingui-id: 1xQkU9
 #: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
@@ -14268,10 +14143,10 @@ msgstr "The name of your Domain"
 msgid "The name of your organization"
 msgstr "The name of your organization"
 
-#. js-lingui-id: 26Pii1
+#. js-lingui-id: L97sPr
 #: src/pages/not-found/NotFound.tsx
-msgid "The page you're seeking is either gone or never there. Let's get you back on track!"
-msgstr "The page you're seeking is either gone or never there. Let's get you back on track!"
+msgid "The page you're seeking is either gone or never was. Let's get you back on track"
+msgstr "The page you're seeking is either gone or never was. Let's get you back on track"
 
 #. js-lingui-id: jrCR2X
 #: src/modules/workflow/workflow-trigger/components/WorkflowEditTriggerManual.tsx
@@ -14927,11 +14802,6 @@ msgstr "Try with another email"
 msgid "TTL"
 msgstr "TTL"
 
-#. js-lingui-id: Kz91g/
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Turkish"
-msgstr "Turkish"
-
 #. js-lingui-id: n0iUzM
 #: src/pages/settings/ai/SettingsAgentTurnDetail.tsx
 #: src/pages/settings/ai/SettingsAgentTurnDetail.tsx
@@ -14964,11 +14834,6 @@ msgstr "Turn Not Found"
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Turquoise"
 msgstr "Turquoise"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Mobius fields"
-msgstr "Mobius fields"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
@@ -15041,11 +14906,6 @@ msgstr "Types of content this model can process besides text"
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "UI components provided by this app"
 msgstr "UI components provided by this app"
-
-#. js-lingui-id: V9+2pH
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Ukrainian"
-msgstr "Ukrainian"
 
 #. js-lingui-id: GNgAlk
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
@@ -15702,11 +15562,6 @@ msgstr "Vertical Bar Chart"
 msgid "Video"
 msgstr "Video"
 
-#. js-lingui-id: fROFIL
-#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
-msgid "Vietnamese"
-msgstr "Vietnamese"
-
 #. js-lingui-id: jUNY/d
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view"
@@ -16044,7 +15899,7 @@ msgstr "weeks"
 msgid "Weight"
 msgstr "Weight"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: i6ZErg
 #: src/pages/auth/SignInUp.tsx
 msgid "Welcome to Mobius"
 msgstr "Welcome to Mobius"
