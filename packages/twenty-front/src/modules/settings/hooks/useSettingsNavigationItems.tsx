@@ -6,7 +6,6 @@ import { currentWorkspaceMemberState } from '@/auth/states/currentWorkspaceMembe
 import { billingState } from '@/client-config/states/billingState';
 import { supportChatState } from '@/client-config/states/supportChatState';
 import { usePermissionFlagMap } from '@/settings/roles/hooks/usePermissionFlagMap';
-import { getDocumentationUrl } from '@/support/utils/getDocumentationUrl';
 import {
   type NavigationDrawerItemIndentationLevel,
   type NavigationDrawerItemModifier,
@@ -23,20 +22,18 @@ import {
   type IconComponent,
   IconCurrencyDollar,
   IconDoorEnter,
-  IconHelpCircle,
   IconHierarchy2,
   IconKey,
   IconLock,
   IconMail,
   IconMessage,
   IconPlug,
-  IconRocket,
   IconServer,
   IconSettings,
   IconSparkles,
   IconUserCircle,
   IconUsers,
-  IconWorld,
+  IconWorld
 } from 'twenty-ui/display';
 import { PermissionFlagType } from '~/generated-metadata/graphql';
 
@@ -198,27 +195,27 @@ const useSettingsNavigationItems = (): SettingsNavigationSection[] => {
           Icon: IconServer,
           isHidden: !isAdminEnabled,
         },
-        {
-          label: t`Updates`,
-          path: SettingsPath.Updates,
-          Icon: IconRocket,
-          isHidden: !permissionMap[PermissionFlagType.WORKSPACE],
-        },
+        // {
+        //   label: t`Updates`,
+        //   path: SettingsPath.Updates,
+        //   Icon: IconRocket,
+        //   isHidden: !permissionMap[PermissionFlagType.WORKSPACE],
+        // },
         {
           label: t`Support`,
           onClick: () => window.FrontChat?.('show'),
           Icon: IconMessage,
           isHidden: !isSupportChatConfigured,
         },
-        {
-          label: t`Documentation`,
-          onClick: () =>
-            window.open(
-              getDocumentationUrl({ locale: currentWorkspaceMember?.locale }),
-              '_blank',
-            ),
-          Icon: IconHelpCircle,
-        },
+        // {
+        //   label: t`Documentation`,
+        //   onClick: () =>
+        //     window.open(
+        //       getDocumentationUrl({ locale: currentWorkspaceMember?.locale }),
+        //       '_blank',
+        //     ),
+        //   Icon: IconHelpCircle,
+        // },
         {
           label: t`Logout`,
           onClick: signOut,

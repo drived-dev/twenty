@@ -1,5 +1,5 @@
-import { useHasPermissionFlag } from '@/settings/roles/hooks/useHasPermissionFlag';
 import { SettingsPageContainer } from '@/settings/components/SettingsPageContainer';
+import { useHasPermissionFlag } from '@/settings/roles/hooks/useHasPermissionFlag';
 import { SubMenuTopBarContainer } from '@/ui/layout/page/components/SubMenuTopBarContainer';
 import { TabList } from '@/ui/layout/tab-list/components/TabList';
 import { activeTabIdComponentState } from '@/ui/layout/tab-list/states/activeTabIdComponentState';
@@ -8,7 +8,7 @@ import { useIsFeatureEnabled } from '@/workspace/hooks/useIsFeatureEnabled';
 import { useLingui } from '@lingui/react/macro';
 import { SettingsPath } from 'twenty-shared/types';
 import { getSettingsPath } from 'twenty-shared/utils';
-import { IconApps, IconCode, IconDownload } from 'twenty-ui/display';
+import { IconApps, IconDownload } from 'twenty-ui/display';
 import {
   FeatureFlagKey,
   PermissionFlagType,
@@ -40,9 +40,9 @@ export const SettingsApplications = () => {
       ? [{ id: 'marketplace', title: t`Marketplace`, Icon: IconDownload }]
       : []),
     { id: 'installed', title: t`Installed`, Icon: IconApps },
-    ...(hasDeveloperAccess
-      ? [{ id: 'developer', title: t`Developer`, Icon: IconCode }]
-      : []),
+    // ...(hasDeveloperAccess
+    //   ? [{ id: 'developer', title: t`Developer`, Icon: IconCode }]
+    //   : []),
   ];
 
   const renderActiveTabContent = () => {
