@@ -224,7 +224,7 @@ export function EnterpriseActivateClient() {
             />
             <Body
               body={{
-                text: 'Copy this key and paste it into your Twenty self-hosted instance settings.',
+                text: 'Copy this key and paste it into your Mobius self-hosted instance settings.',
               }}
               size="sm"
               variant="body-paragraph"
@@ -267,7 +267,7 @@ export function EnterpriseActivateClient() {
               <li className={nextStepItemClassName}>
                 <Body
                   body={{
-                    text: 'Open your Twenty self-hosted instance Settings → Enterprise.',
+                    text: 'Open your Mobius self-hosted instance Settings → Enterprise.',
                   }}
                   size="sm"
                 />

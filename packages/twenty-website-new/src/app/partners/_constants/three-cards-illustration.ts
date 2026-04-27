@@ -16,11 +16,11 @@ export const THREE_CARDS_ILLUSTRATION_DATA: ThreeCardsIllustrationDataType = {
     {
       heading: { text: 'Technology Partners', fontFamily: 'sans' },
       body: {
-        text: 'Build integrations that connect Twenty with the tools your customers already use. Help us expand the Twenty ecosystem.',
+        text: 'Build integrations that connect Mobius with the tools your customers already use. Help us expand the Mobius ecosystem.',
       },
       benefits: [
         { text: 'Co-marketing opportunities', icon: 'users' },
-        { text: 'Listing on Twenty integrations page', icon: 'search' },
+        { text: 'Listing on Mobius integrations page', icon: 'search' },
         { text: 'Soon: earn revenue', icon: 'tag' },
       ],
       action: {
@@ -34,7 +34,7 @@ export const THREE_CARDS_ILLUSTRATION_DATA: ThreeCardsIllustrationDataType = {
     {
       heading: { text: 'Content & Community Partners', fontFamily: 'sans' },
       body: {
-        text: "Share Twenty with your audience and help shape the future of the #1 open source CRM. We're looking for creators, educators, and community builders who want to showcase great software.",
+        text: "Share Mobius with your audience and help shape the future of the #1 open source CRM. We're looking for creators, educators, and community builders who want to showcase great software.",
       },
       benefits: [
         { text: 'Revenue share for referred customers', icon: 'tag' },

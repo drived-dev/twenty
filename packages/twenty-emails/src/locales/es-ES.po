@@ -49,8 +49,8 @@ msgstr "El espacio de trabajo se desactivará en {remainingDays} {dayOrDays} y s
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Si deseas seguir usando Twenty, actualiza tu suscripción en los próximos {remainingDays} {dayOrDays}."
+msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Si deseas seguir usando Mobius, actualiza tu suscripción en los próximos {remainingDays} {dayOrDays}."
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -75,8 +75,8 @@ msgstr "Correo de prueba"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Únete a tu equipo en Twenty"
+msgid "Join your team on Mobius"
+msgstr "Únete a tu equipo en Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -125,8 +125,8 @@ msgstr "Si no iniciaste este cambio, contacta inmediatamente al propietario de t
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Conéctate a Twenty"
+msgid "Connect to Mobius"
+msgstr "Conéctate a Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -170,8 +170,8 @@ msgstr "Todos los datos de este espacio de trabajo han sido eliminados permanent
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Si deseas usar Twenty nuevamente, puedes crear un nuevo espacio de trabajo."
+msgid "If you wish to use Mobius again, you can create a new workspace."
+msgstr "Si deseas usar Mobius nuevamente, puedes crear un nuevo espacio de trabajo."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -179,12 +179,12 @@ msgid "Create a new workspace"
 msgstr "Crea un nuevo espacio de trabajo"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "¿Qué es Twenty?"
+#: src/components/WhatIsMobius.tsx
+msgid "What is Mobius?"
+msgstr "¿Qué es Mobius?"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
+#: src/components/WhatIsMobius.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 msgstr "Es un CRM, un software para ayudar a las empresas a gestionar eficientemente sus datos y relaciones con los clientes."
 
@@ -195,8 +195,8 @@ msgstr "Sitio web"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Visite el sitio web de Twenty"
+msgid "Visit Mobius's website"
+msgstr "Visite el sitio web de Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -205,8 +205,8 @@ msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Visite el repositorio de GitHub de Twenty"
+msgid "Visit Mobius's GitHub repository"
+msgstr "Visite el repositorio de GitHub de Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -215,8 +215,8 @@ msgstr "Guía del usuario"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Lea la guía del usuario de Twenty"
+msgid "Read Mobius's user guide"
+msgstr "Lea la guía del usuario de Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -225,13 +225,13 @@ msgstr "Desarrolladores"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Visite la documentación para desarrolladores de Twenty"
+msgid "Visit Mobius's developer documentation"
+msgstr "Visite la documentación para desarrolladores de Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Corporación de Beneficio Público"
+msgid "Mobius.com, Public Benefit Corporation"
+msgstr "Mobius.com, Corporación de Beneficio Público"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx

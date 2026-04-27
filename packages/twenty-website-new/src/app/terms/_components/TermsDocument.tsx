@@ -6,15 +6,15 @@ export function TermsDocument() {
       <h2>Introduction</h2>
       <p>
         Herein are the Terms of Service that govern the use of products created
-        by Twenty.com PBC (&quot;Company&quot;, &quot;we&quot;, &quot;our&quot;,
+        by Mobius.com PBC (&quot;Company&quot;, &quot;we&quot;, &quot;our&quot;,
         &quot;us&quot;). The estimated reading time for the full content is
         approximately 20 minutes.
       </p>
       <p>
         These Terms of Service (&quot;Terms&quot;, &quot;Terms of Service&quot;)
-        govern the use of our main website on Twenty.com and any of its
+        govern the use of our main website on Mobius.com and any of its
         sub-domain, as well as any mobile application (together or individually
-        &quot;Service&quot;) operated by Twenty.com PBC.
+        &quot;Service&quot;) operated by Mobius.com PBC.
       </p>
       <p>
         Our Privacy Policy also governs your use of our Service and explains how
@@ -95,22 +95,22 @@ export function TermsDocument() {
       </p>
       <p>
         At the end of each Billing Cycle, your Subscription will automatically
-        renew under the exact same conditions unless you cancel it or Twenty.com
+        renew under the exact same conditions unless you cancel it or Mobius.com
         PBC cancels it. You may cancel your Subscription renewal either through
-        your online account management page or by contacting Twenty.com PBC
+        your online account management page or by contacting Mobius.com PBC
         customer support team.
       </p>
       <p>
         A valid payment method, including credit card, is required to process
-        the payment for your subscription. You shall provide Twenty.com PBC with
+        the payment for your subscription. You shall provide Mobius.com PBC with
         accurate and complete billing information including full name, address,
         state, zip code, telephone number, and a valid payment method
         information. By submitting such payment information, you automatically
-        authorize Twenty.com PBC to charge all Subscription fees incurred
+        authorize Mobius.com PBC to charge all Subscription fees incurred
         through your account to any such payment instruments.
       </p>
       <p>
-        Should automatic billing fail to occur for any reason, Twenty.com PBC
+        Should automatic billing fail to occur for any reason, Mobius.com PBC
         will issue an electronic invoice indicating that you must proceed
         manually, within a certain deadline date, with the full payment
         corresponding to the billing period as indicated on the invoice.
@@ -118,7 +118,7 @@ export function TermsDocument() {
 
       <h2>Free Trial</h2>
       <p>
-        Twenty.com PBC may, at its sole discretion, offer a Subscription with a
+        Mobius.com PBC may, at its sole discretion, offer a Subscription with a
         free trial for a limited period of time (&quot;Free Trial&quot;).
       </p>
       <p>
@@ -127,25 +127,25 @@ export function TermsDocument() {
       </p>
       <p>
         If you do enter your billing information when signing up for Free Trial,
-        you will not be charged by Twenty.com PBC until Free Trial has expired.
+        you will not be charged by Mobius.com PBC until Free Trial has expired.
         On the last day of Free Trial period, unless you canceled your
         Subscription, you will be automatically charged the applicable
         Subscription fees for the type of Subscription you have selected.
       </p>
       <p>
-        At any time and without notice, Twenty.com PBC reserves the right to (i)
+        At any time and without notice, Mobius.com PBC reserves the right to (i)
         modify Terms of Service of Free Trial offer, or (ii) cancel such Free
         Trial offer.
       </p>
 
       <h2>Fee changes</h2>
       <p>
-        Twenty.com PBC, in its sole discretion and at any time, may modify
+        Mobius.com PBC, in its sole discretion and at any time, may modify
         Subscription fees for the Subscriptions. Any Subscription fee change
         will become effective at the end of the then-current Billing Cycle.
       </p>
       <p>
-        Twenty.com PBC will provide you with a reasonable prior notice of any
+        Mobius.com PBC will provide you with a reasonable prior notice of any
         change in Subscription fees to give you an opportunity to terminate your
         Subscription before such change becomes effective.
       </p>
@@ -190,7 +190,7 @@ export function TermsDocument() {
         of Service, who may also use your Content subject to these Terms.
       </p>
       <p>
-        Twenty.com PBC has the right but not the obligation to monitor and edit
+        Mobius.com PBC has the right but not the obligation to monitor and edit
         all Content provided by users.
       </p>
 
@@ -335,10 +335,10 @@ export function TermsDocument() {
       <p>
         Service and its original content (excluding Content provided by users),
         features and functionality are and will remain the exclusive property of
-        Twenty.com PBC and its licensors. Service is protected by copyright,
+        Mobius.com PBC and its licensors. Service is protected by copyright,
         trademark, and other laws of the United States. Our trademarks and trade
         dress may not be used in connection with any product or service without
-        the prior written consent of Twenty.com PBC.
+        the prior written consent of Mobius.com PBC.
       </p>
 
       <h2>Error Reporting and Feedback</h2>
@@ -381,10 +381,10 @@ export function TermsDocument() {
       <h2>Links To Other Websites</h2>
       <p>
         Our Service may contain links to third party websites or services that
-        are not owned or controlled by Twenty.com PBC.
+        are not owned or controlled by Mobius.com PBC.
       </p>
       <p>
-        Twenty.com PBC has no control over, and assumes no responsibility for
+        Mobius.com PBC has no control over, and assumes no responsibility for
         the content, privacy policies, or practices of any third party web sites
         or services. We do not warrant the offerings of any of these
         entities/individuals or their websites.

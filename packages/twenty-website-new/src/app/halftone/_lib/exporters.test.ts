@@ -36,7 +36,7 @@ describe('halftone export naming', () => {
     });
   });
 
-  it('sanitizes generated React component identifiers for the default Twenty export', () => {
+  it('sanitizes generated React component identifiers for the default Mobius export', () => {
     const output = generateReactComponent(
       DEFAULT_HALFTONE_SETTINGS,
       undefined,
@@ -188,7 +188,7 @@ describe('halftone react export presets', () => {
     );
   });
 
-  it('parses Twenty exports with header comments and named/default exports', () => {
+  it('parses Mobius exports with header comments and named/default exports', () => {
     const output = generateReactComponent(
       DEFAULT_HALFTONE_SETTINGS,
       IMPORTED_GLB_SHAPE,

@@ -36,7 +36,7 @@ export function WhyTwentyVisual() {
     <VisualContainer>
       <BackgroundLayer>
         <NextImage
-          alt="Why Twenty hero background"
+          alt="Why Mobius hero background"
           className={backgroundImageClassName}
           fill
           priority

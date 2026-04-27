@@ -22,7 +22,7 @@ export const HELPED_DATA: HelpedDataType = {
       icon: 'w3villa',
       heading: { text: 'Ship a product on Twenty', fontFamily: 'sans' },
       body: {
-        text: 'W3villa built W3Grads for AI mock interviews at scale, with Twenty as the operational backbone.',
+        text: 'W3villa built W3Grads for AI mock interviews at scale, with Mobius as the operational backbone.',
       },
       illustration: 'target',
       href: '/customers/w3villa',
@@ -31,7 +31,7 @@ export const HELPED_DATA: HelpedDataType = {
       icon: 'act-education',
       heading: { text: 'Own your CRM end to end', fontFamily: 'sans' },
       body: {
-        text: 'AC&T replaced a shuttered vendor CRM with self-hosted Twenty and cut CRM costs by more than 90%.',
+        text: 'AC&T replaced a shuttered vendor CRM with self-hosted Mobius and cut CRM costs by more than 90%.',
       },
       illustration: 'spaceship',
       href: '/customers/act-education',
@@ -40,7 +40,7 @@ export const HELPED_DATA: HelpedDataType = {
       icon: 'netzero',
       heading: { text: 'Grow with a flexible foundation', fontFamily: 'sans' },
       body: {
-        text: 'NetZero runs a modular Twenty setup across carbon credits, ag products, and industrial systems.',
+        text: 'NetZero runs a modular Mobius setup across carbon credits, ag products, and industrial systems.',
       },
       illustration: 'money',
       href: '/customers/netzero',

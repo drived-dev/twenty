@@ -6,6 +6,6 @@ export const ENGAGEMENT_BAND_DATA: EngagementBandDataType = {
     fontFamily: 'serif',
   },
   body: {
-    text: 'Discover how our partners implement, customize, and scale Twenty in real-world deployments.',
+    text: 'Discover how our partners implement, customize, and scale Mobius in real-world deployments.',
   },
 };

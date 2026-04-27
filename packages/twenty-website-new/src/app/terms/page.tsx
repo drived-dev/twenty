@@ -10,7 +10,7 @@ import { TermsDocument } from './_components';
 export const metadata: Metadata = {
   title: 'Terms of Service | Twenty',
   description:
-    'Terms of Service for Twenty.com PBC, including use of Twenty.com, sub-domains, and related services.',
+    'Terms of Service for Mobius.com PBC, including use of Mobius.com, sub-domains, and related services.',
 };
 
 export default async function TermsPage() {

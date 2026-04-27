@@ -49,8 +49,8 @@ msgstr "A munkaterület {remainingDays} {dayOrDays} múlva lesz deaktiválva, é
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Amennyiben szeretné folytatni a Twenty használatát, kérjük frissítse előfizetését a következő {remainingDays} {dayOrDays} időszakban."
+msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Amennyiben szeretné folytatni a Mobius használatát, kérjük frissítse előfizetését a következő {remainingDays} {dayOrDays} időszakban."
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -75,8 +75,8 @@ msgstr "Teszt e-mail"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Csatlakozzon a csapatához a Twentyn"
+msgid "Join your team on Mobius"
+msgstr "Csatlakozzon a csapatához a Mobiusn"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -125,8 +125,8 @@ msgstr "Amennyiben Ön nem kezdeményezte ezt a változtatást, kérjük azonnal
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Csatlakozás a Twentyhez"
+msgid "Connect to Mobius"
+msgstr "Csatlakozás a Mobiushez"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -170,8 +170,8 @@ msgstr "A munkaterület minden adata végérvényesen törlésre került."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Ha újra szeretné használni a Twenty-t, létrehozhat egy új munkaterületet."
+msgid "If you wish to use Mobius again, you can create a new workspace."
+msgstr "Ha újra szeretné használni a Mobius-t, létrehozhat egy új munkaterületet."
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -179,12 +179,12 @@ msgid "Create a new workspace"
 msgstr "Hozzon létre új munkaterületet"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Mi az a Twenty?"
+#: src/components/WhatIsMobius.tsx
+msgid "What is Mobius?"
+msgstr "Mi az a Mobius?"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
+#: src/components/WhatIsMobius.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 msgstr "Ez egy CRM, egy szoftver, amely segíti a vállalkozásokat az ügyféladataik és kapcsolataik hatékony kezelésében."
 
@@ -195,8 +195,8 @@ msgstr "Weboldal"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Látogasson el a Twenty weboldalára"
+msgid "Visit Mobius's website"
+msgstr "Látogasson el a Mobius weboldalára"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -205,8 +205,8 @@ msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Látogasson el a Twenty GitHub tárházához"
+msgid "Visit Mobius's GitHub repository"
+msgstr "Látogasson el a Mobius GitHub tárházához"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -215,8 +215,8 @@ msgstr "Felhasználói útmutató"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Olvassa el a Twenty felhasználói útmutatóját"
+msgid "Read Mobius's user guide"
+msgstr "Olvassa el a Mobius felhasználói útmutatóját"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -225,13 +225,13 @@ msgstr "Fejlesztők"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Látogasson el a Twenty fejlesztői dokumentációjához"
+msgid "Visit Mobius's developer documentation"
+msgstr "Látogasson el a Mobius fejlesztői dokumentációjához"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Közhasznú Vállalat"
+msgid "Mobius.com, Public Benefit Corporation"
+msgstr "Mobius.com, Közhasznú Vállalat"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx

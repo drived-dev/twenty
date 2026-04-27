@@ -51,21 +51,21 @@ function buildNavItems(): MenuNavItemType[] {
             imageScale: 1.6,
             title: 'Build on an open platform',
             description:
-              'APIs, SDKs and webhooks to extend Twenty and ship apps on top of your CRM data.',
+              'APIs, SDKs and webhooks to extend Mobius and ship apps on top of your CRM data.',
           },
         },
         {
           label: 'Partners',
-          description: 'Find a Twenty partner',
+          description: 'Find a Mobius partner',
           href: '/partners',
           icon: 'users',
           preview: {
             image: '/images/partner/hero/hero.webp',
             imageAlt: 'Twenty partner ecosystem',
             imagePosition: 'center',
-            title: 'Team up with a Twenty expert',
+            title: 'Team up with a Mobius expert',
             description:
-              'Meet the certified agencies and consultants implementing Twenty for teams worldwide.',
+              'Meet the certified agencies and consultants implementing Mobius for teams worldwide.',
           },
         },
         {

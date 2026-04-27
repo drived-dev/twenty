@@ -21,7 +21,7 @@ const MIN_WIDTH = 640;
 const MIN_HEIGHT = 420;
 const MIN_EDGE_GAP = 0;
 // Initial size cap — the hero scene is 1280×832, so we reuse that ratio to
-// keep the window looking like the Twenty app when it's shrunk to fit.
+// keep the window looking like the Mobius app when it's shrunk to fit.
 const INITIAL_MAX_WIDTH = 1040;
 const INITIAL_ASPECT_RATIO = 1280 / 832;
 // Below this parent width, stack App Window + Terminal with a small diagonal

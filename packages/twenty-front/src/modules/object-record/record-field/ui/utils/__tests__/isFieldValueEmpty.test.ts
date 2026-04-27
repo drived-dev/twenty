@@ -142,7 +142,7 @@ describe('isFieldValueEmpty', () => {
         fieldDefinition: linksFieldDefinition,
         fieldValue: {
           primaryLinkUrl: 'https://www.twenty.com',
-          primaryLinkLabel: 'Twenty Website',
+          primaryLinkLabel: 'Mobius Website',
           secondaryLinks: [],
         },
       }),
@@ -182,7 +182,7 @@ describe('isFieldValueEmpty', () => {
         fieldDefinition: linksFieldDefinition,
         fieldValue: {
           primaryLinkUrl: 'https://www.twenty.com',
-          primaryLinkLabel: 'Twenty Website',
+          primaryLinkLabel: 'Mobius Website',
           secondaryLinks: [{ url: 'wikipedia', label: 'Invalid URL' }],
         },
       }),

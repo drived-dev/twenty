@@ -49,8 +49,8 @@ msgstr "ワークスペースは{remainingDays} {dayOrDays}後に無効化され
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
-msgid "If you wish to continue using Twenty, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr "Twentyを引き続きご利用になる場合は、{remainingDays} {dayOrDays}以内にサブスクリプションを更新してください。"
+msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
+msgstr "Mobiusを引き続きご利用になる場合は、{remainingDays} {dayOrDays}以内にサブスクリプションを更新してください。"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -75,8 +75,8 @@ msgstr "テストメール"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
-msgid "Join your team on Twenty"
-msgstr "Twentyでチームに参加"
+msgid "Join your team on Mobius"
+msgstr "Mobiusでチームに参加"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
@@ -125,8 +125,8 @@ msgstr "この変更を行っていない場合は、すぐにワークスペー
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Twentyに接続"
+msgid "Connect to Mobius"
+msgstr "Mobiusに接続"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -170,8 +170,8 @@ msgstr "このワークスペースのすべてのデータは永久に削除さ
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
-msgid "If you wish to use Twenty again, you can create a new workspace."
-msgstr "Twentyを再度使用するには、新しいワークスペースを作成してください。"
+msgid "If you wish to use Mobius again, you can create a new workspace."
+msgstr "Mobiusを再度使用するには、新しいワークスペースを作成してください。"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
@@ -179,14 +179,14 @@ msgid "Create a new workspace"
 msgstr "新しいワークスペースを作成"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Twentyとは？"
+#: src/components/WhatIsMobius.tsx
+msgid "What is Mobius?"
+msgstr "Mobiusとは？"
 
 #. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
+#: src/components/WhatIsMobius.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "Twentyは、企業が顧客データと関係を効率的に管理するためのソフトウェアであるCRMです。"
+msgstr "Mobiusは、企業が顧客データと関係を効率的に管理するためのソフトウェアであるCRMです。"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -195,8 +195,8 @@ msgstr "ウェブサイト"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Twentyのウェブサイトを訪問"
+msgid "Visit Mobius's website"
+msgstr "Mobiusのウェブサイトを訪問"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -205,8 +205,8 @@ msgstr "ギットハブ"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "TwentyのGitHubリポジトリを訪問"
+msgid "Visit Mobius's GitHub repository"
+msgstr "MobiusのGitHubリポジトリを訪問"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -215,8 +215,8 @@ msgstr "ユーザーガイド"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Twentyのユーザーガイドを読む"
+msgid "Read Mobius's user guide"
+msgstr "Mobiusのユーザーガイドを読む"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -225,13 +225,13 @@ msgstr "開発者"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Twentyの開発者向けドキュメントを訪問"
+msgid "Visit Mobius's developer documentation"
+msgstr "Mobiusの開発者向けドキュメントを訪問"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, 公益企業"
+msgid "Mobius.com, Public Benefit Corporation"
+msgstr "Mobius.com, 公益企業"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx

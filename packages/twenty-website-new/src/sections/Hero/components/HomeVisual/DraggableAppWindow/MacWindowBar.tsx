@@ -47,7 +47,7 @@ const RightSpacer = styled.div`
 `;
 
 export const MacWindowBar = ({
-  title = 'Twenty',
+  title = 'Mobius',
   onDragStart,
   isDragging,
 }: MacWindowBarProps) => {

@@ -17,7 +17,7 @@ const CASE_STUDY: CaseStudyData = {
     title:
       'From Salesforce to self-hosted Twenty, powered by AI | Alternative Partners',
     description:
-      'How Alternative Partners migrated from Salesforce to self-hosted Twenty using agentic AI in the implementation loop: fast migration, durable ownership.',
+      'How Alternative Partners migrated from Salesforce to self-hosted Mobius using agentic AI in the implementation loop: fast migration, durable ownership.',
   },
   hero: {
     readingTime: '7 min',
@@ -45,7 +45,7 @@ const CASE_STUDY: CaseStudyData = {
         { text: 'migration workflow', fontFamily: 'sans' },
       ],
       paragraphs: [
-        "Alternative Partners is a consulting firm that moved from Salesforce to a self-hosted Twenty instance. Benjamin Reynolds led the migration. He had already become a Twenty expert implementing Twenty for one of Twenty's first cloud customers.",
+        "Alternative Partners is a consulting firm that moved from Salesforce to a self-hosted Mobius instance. Benjamin Reynolds led the migration. He had already become a Mobius expert implementing Mobius for one of Twenty's first cloud customers.",
         'His approach was unconventional. Instead of mapping fields manually, scripting transforms, and validating data step by step, he handed the job to agentic AI tools with a brief: where the data lives, the GitHub repo for the target platform, and the Railway deployment. Start, and only return if something breaks beyond a 70% confidence fix.',
         'It worked. This is AI-assisted iteration in practice: not AI as a product feature, but as part of implementation work, compressing what would typically be weeks into something one person can oversee without being the bottleneck.',
       ],

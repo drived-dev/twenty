@@ -2684,8 +2684,8 @@ msgstr "by {author}"
 
 #. js-lingui-id: 8Pfllj
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "By using Twenty, you agree to the"
+msgid "By using Mobius, you agree to the"
+msgstr "By using Mobius, you agree to the"
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -3050,8 +3050,8 @@ msgstr "Check your inbox to verify your new email address."
 
 #. js-lingui-id: SxwQE8
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Checkout session error. Please retry or contact Twenty team"
+msgid "Checkout session error. Please retry or contact Mobius team"
+msgstr "Checkout session error. Please retry or contact Mobius team"
 
 #. js-lingui-id: SviKkE
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -6143,8 +6143,8 @@ msgstr "Error while cancelling plan switching."
 
 #. js-lingui-id: QmR+2U
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Error while ending trial period. Please contact Twenty team."
+msgid "Error while ending trial period. Please contact Mobius team."
+msgstr "Error while ending trial period. Please contact Mobius team."
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -7495,7 +7495,7 @@ msgid ""
 "npx create-twenty-app@latest my-twenty-app\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 msgstr ""
 "Host your workspace's customizations and overrides.\n"
 "\n"
@@ -7519,7 +7519,7 @@ msgstr ""
 "npx create-twenty-app@latest my-twenty-app\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 
 #. js-lingui-id: yY8wAv
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
@@ -10982,8 +10982,8 @@ msgstr "Page Name"
 
 #. js-lingui-id: NRvxzv
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Page Not Found | Twenty"
+msgid "Page Not Found | Mobius"
+msgstr "Page Not Found | Mobius"
 
 #. js-lingui-id: sF+Xp9
 #: src/pages/settings/security/event-logs/components/EventLogTableSelector.tsx
@@ -13945,8 +13945,8 @@ msgstr "Sync with Outlook"
 
 #. js-lingui-id: +9x4tK
 #: src/pages/onboarding/SyncEmails.tsx
-msgid "Sync your Emails and Calendar with Twenty. Choose your privacy settings."
-msgstr "Sync your Emails and Calendar with Twenty. Choose your privacy settings."
+msgid "Sync your Emails and Calendar with Mobius. Choose your privacy settings."
+msgstr "Sync your Emails and Calendar with Mobius. Choose your privacy settings."
 
 #. js-lingui-id: N2FcBE
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
@@ -14145,11 +14145,11 @@ msgstr "The AWS region for Bedrock"
 #. js-lingui-id: HP7per
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every Mobius workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every Mobius workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -14157,11 +14157,11 @@ msgid ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of Mobius has nothing to hang off.\n"
 "\n"
 "#### Build your own app\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
+"Extend Mobius with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
 "\n"
 "```bash\n"
 "npx create-twenty-app@latest my-twenty-app\n"
@@ -14171,16 +14171,16 @@ msgid ""
 "\n"
 "```bash\n"
 "cd my-twenty-app\n"
-"yarn twenty dev\n"
+"yarn mobius dev\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 msgstr ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every Mobius workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every Mobius workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -14188,11 +14188,11 @@ msgstr ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of Mobius has nothing to hang off.\n"
 "\n"
 "#### Build your own app\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
+"Extend Mobius with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
 "\n"
 "```bash\n"
 "npx create-twenty-app@latest my-twenty-app\n"
@@ -14202,10 +14202,10 @@ msgstr ""
 "\n"
 "```bash\n"
 "cd my-twenty-app\n"
-"yarn twenty dev\n"
+"yarn mobius dev\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://mobius.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://mobius.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 
 #. js-lingui-id: 1xQkU9
 #: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
@@ -14967,8 +14967,8 @@ msgstr "Turquoise"
 
 #. js-lingui-id: JnaRPe
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Twenty fields"
+msgid "Mobius fields"
+msgstr "Mobius fields"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
@@ -16046,8 +16046,8 @@ msgstr "Weight"
 
 #. js-lingui-id: nTuObL
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Welcome to Twenty"
+msgid "Welcome to Mobius"
+msgstr "Welcome to Mobius"
 
 #. js-lingui-id: t8ZvkC
 #: src/pages/auth/SignInUp.tsx
