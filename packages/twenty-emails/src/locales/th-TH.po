@@ -1,234 +1,240 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-04-26 20:14+0700\n"
+"POT-Creation-Date: 2025-02-01 18:53+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: th-TH\n"
-"Project-Id-Version: \n"
+"Language: th\n"
+"Project-Id-Version: dd-twenty\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2026-04-27 14:22\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Thai\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: dd-twenty\n"
+"X-Crowdin-Project-ID: 892686\n"
+"X-Crowdin-Language: th\n"
+"X-Crowdin-File: /packages/twenty-emails/src/locales/en.po\n"
+"X-Crowdin-File-ID: 28\n"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "Suspended Workspace"
-msgstr ""
+msgstr "Workspace ถูกระงับ"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 #: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Dear {userName},"
-msgstr ""
+msgstr "เรียน {userName},"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 #: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Hello,"
-msgstr ""
+msgstr "สวัสดี,"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "It appears that your workspace <0>{workspaceDisplayName}</0> has been suspended for {daysSinceInactive} days."
-msgstr ""
+msgstr "ดูเหมือนว่า Workspace ทำงานของคุณ <0>{workspaceDisplayName}</0> ถูกระงับเป็นเวลา {daysSinceInactive} วัน"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "The workspace will be deactivated in {remainingDays} {dayOrDays}, and all its data will be deleted."
-msgstr ""
+msgstr "Workspace จะถูกปิดใช้งานในอีก {remainingDays} {dayOrDays} และข้อมูลทั้งหมดจะถูกลบ"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "If you wish to continue using Mobius, please update your subscription within the next {remainingDays} {dayOrDays}."
-msgstr ""
+msgstr "หากคุณต้องการใช้งาน Mobius ต่อไป โปรดอัปเดตการสมัครสมาชิกของคุณภายใน {remainingDays} {dayOrDays} ข้างหน้า"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "Update your subscription"
-msgstr ""
+msgstr "อัปเดตการสมัครสมาชิกของคุณ"
 
 #. js-lingui-explicit-id
 #: src/emails/validate-approved-access-domain.email.tsx
 #: src/emails/validate-approved-access-domain.email.tsx
 msgid "Validate domain"
-msgstr ""
+msgstr "ตรวจสอบโดเมน"
 
 #. js-lingui-explicit-id
 #: src/emails/validate-approved-access-domain.email.tsx
 msgid "{senderName} (<0>{senderEmail}</0>): Please validate this domain to allow users with <1>@{domain}</1> email addresses to join your workspace without requiring an invitation."
-msgstr ""
+msgstr "{senderName} (<0>{senderEmail}</0>): โปรดยืนยันโดเมนนี้เพื่อให้ผู้ใช้ที่มีที่อยู่อีเมล <1>@{domain}</1> สามารถเข้าร่วมWorkspace ทำงานของคุณได้โดยไม่ต้องมีการเชิญ"
 
 #. js-lingui-explicit-id
 #: src/emails/test.email.tsx
 msgid "Test email"
-msgstr ""
+msgstr "ทดสอบอีเมล"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
 msgid "Join your team on Mobius"
-msgstr ""
+msgstr "เข้าร่วมทีมของคุณบน Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
 msgid "{senderName} (<0>{senderEmail}</0>) has invited you to join a workspace called <1>{workspaceName}</1>."
-msgstr ""
+msgstr "{senderName} (<0>{senderEmail}</0>) ได้เชิญคุณเข้าร่วม Workspace ทำงานชื่อ <1>{workspaceName}</1>"
 
 #. js-lingui-explicit-id
 #: src/emails/send-invite-link.email.tsx
 msgid "Accept invite"
-msgstr ""
+msgstr "ยอมรับคำเชิญ"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm your new email address"
-msgstr ""
+msgstr "ยืนยันที่อยู่อีเมลใหม่ของคุณ"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm your email address"
-msgstr ""
+msgstr "ยืนยันที่อยู่อีเมลของคุณ"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Confirm new email"
-msgstr ""
+msgstr "ยืนยันอีเมลใหม่"
 
 #. js-lingui-explicit-id
 #: src/emails/send-email-verification-link.email.tsx
 msgid "Verify Email"
-msgstr ""
+msgstr "ยืนยันอีเมล"
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
 msgid "Password updated"
-msgstr ""
+msgstr "รหัสผ่านได้รับการอัปเดตแล้ว"
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
 msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
-msgstr ""
+msgstr "การยืนยันนี้คือการยืนยันว่ารหัสผ่านสำหรับบัญชีของคุณ ({email}) ได้รับการเปลี่ยนแปลงสำเร็จเมื่อ {formattedDate}."
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
 msgid "If you did not initiate this change, please contact your workspace owner immediately."
-msgstr ""
+msgstr "หากคุณไม่ได้เริ่มต้นการเปลี่ยนแปลงนี้ โปรดติดต่อเจ้าของ Workspace ทำงานของคุณทันที"
 
 #. js-lingui-explicit-id
 #: src/emails/password-update-notify.email.tsx
 msgid "Connect to Mobius"
-msgstr ""
+msgstr "เชื่อมต่อกับ Mobius"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset your password 🗝"
-msgstr ""
+msgstr "รีเซ็ตรหัสผ่านของคุณ 🗝"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Set your password 🗝"
-msgstr ""
+msgstr "ตั้งรหัสผ่านของคุณ 🗝"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset"
-msgstr ""
+msgstr "รีเซ็ต"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Set"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "This link is only valid for the next {duration}. If the link does not work, you can use the login verification link directly:"
-msgstr ""
+msgstr "ลิงก์นี้ใช้ได้เฉพาะ {duration} ถัดไปเท่านั้น หากลิงก์ไม่ทำงาน คุณสามารถใช้ลิงก์ยืนยันการเข้าสู่ระบบได้โดยตรง:"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Deleted Workspace"
-msgstr ""
+msgstr "Workspace ทำงานถูกลบ"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Your workspace <0>{workspaceDisplayName}</0> has been deleted as your subscription expired {daysSinceInactive} days ago."
-msgstr ""
+msgstr "Workspace ทำงานของคุณ <0>{workspaceDisplayName}</0> ถูกลบเนื่องจากการสมัครสมาชิกของคุณหมดอายุเมื่อ {daysSinceInactive} วันที่แล้ว"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "All data in this workspace has been permanently deleted."
-msgstr ""
+msgstr "ข้อมูลทั้งหมดใน Workspace ทำงานนี้ถูกลบอย่างถาวรแล้ว"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "If you wish to use Mobius again, you can create a new workspace."
-msgstr ""
+msgstr "หากคุณต้องการใช้ Mobius อีกครั้ง คุณสามารถสร้าง Workspace ใหม่ได้"
 
 #. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Create a new workspace"
-msgstr ""
+msgstr "สร้าง Workspace ใหม่"
 
 #. js-lingui-explicit-id
 #: src/components/WhatIsTwenty.tsx
 msgid "What is Mobius?"
-msgstr ""
+msgstr "Mobius คืออะไร?"
 
 #. js-lingui-explicit-id
 #: src/components/WhatIsTwenty.tsx
 msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr ""
+msgstr "คือ CRM ซอฟต์แวร์ที่ช่วยให้ธุรกิจจัดการข้อมูลลูกค้าและความสัมพันธ์ได้อย่างมีประสิทธิภาพ"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Website"
-msgstr ""
+msgstr "เว็บไซต์"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Visit Mobius's website"
-msgstr ""
+msgstr "เยี่ยมชมเว็บไซต์ของ Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Github"
-msgstr ""
+msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Visit Mobius's GitHub repository"
-msgstr ""
+msgstr "เยี่ยมชมที่เก็บ GitHub ของ Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "User guide"
-msgstr ""
+msgstr "คู่มือผู้ใช้"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Read Mobius's user guide"
-msgstr ""
+msgstr "อ่านคู่มือผู้ใช้ของ Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Developers"
-msgstr ""
+msgstr "นักพัฒนา"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Visit Mobius's developer documentation"
-msgstr ""
+msgstr "เยี่ยมชมเอกสารสำหรับนักพัฒนาของ Mobius"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "Mobius.com, Public Benefit Corporation"
-msgstr ""
+msgstr "Mobius.com, บริษัทเพื่อประโยชน์สาธารณะ"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
 msgid "San Francisco / Paris"
-msgstr ""
+msgstr "ซานฟรานซิสโก / ปารีส"
+
