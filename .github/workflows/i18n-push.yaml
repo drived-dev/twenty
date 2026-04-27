@@ -18,6 +18,10 @@ jobs:
   extract_translations:
     name: Extract and upload translations
     runs-on: ubuntu-latest
+    env:
+      # NX_NO_CLOUD=true tells Nx to skip cloud entirely (native Nx env var).
+      # Set repo variable NX_CLOUD_ENABLED=false to disable across all workflows.
+      NX_NO_CLOUD: ${{ vars.NX_CLOUD_ENABLED == 'false' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,12 +40,16 @@ jobs:
 
       - name: Build dependencies
         run: npx nx build twenty-shared
+        env:
+          NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
       - name: Extract translations
         run: |
           npx nx run twenty-server:lingui:extract
           npx nx run twenty-emails:lingui:extract
           npx nx run twenty-front:lingui:extract
+        env:
+          NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
       - name: Debug - List generated files
         run: |
@@ -67,6 +75,8 @@ jobs:
           npx nx run twenty-server:lingui:compile
           npx nx run twenty-emails:lingui:compile
           npx nx run twenty-front:lingui:compile
+        env:
+          NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
       - name: Check and commit compiled files
         id: check_compile_changes
