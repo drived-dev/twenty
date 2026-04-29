@@ -1,7 +1,7 @@
 name: "Release: create"
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
   packages: write
 
