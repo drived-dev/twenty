@@ -30,7 +30,7 @@ import { Temporal } from 'temporal-polyfill';
 
 export {
   MONTH_AND_YEAR_DROPDOWN_MONTH_SELECT_ID,
-  MONTH_AND_YEAR_DROPDOWN_YEAR_SELECT_ID,
+  MONTH_AND_YEAR_DROPDOWN_YEAR_SELECT_ID
 } from '@/ui/input/components/internal/date/components/DatePicker';
 export { DATE_TIME_PICKER_MONTH_YEAR_PANEL_DROPDOWN_ID } from '@/ui/input/components/internal/date/components/DateTimePickerHeader';
 
@@ -52,7 +52,7 @@ const StyledContainer = styled.div<{
   & .react-datepicker {
     border-color: ${themeCssVariables.border.color.light};
     background: transparent;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans Thai';
     font-size: ${themeCssVariables.font.size.md};
     border: none;
     display: block;

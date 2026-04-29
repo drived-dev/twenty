@@ -2,7 +2,14 @@ name: Deploy to Dokploy
 on:
   push:
     branches:
-      - dev # Deploys every time you push to main
+      - dev  # Deploys to staging on every dev push
+      - main # Builds SHA-tagged image for release promotion
+  workflow_dispatch:
+    inputs:
+      nx_cloud_enabled:
+        description: "Enable Nx Cloud? (true/false) — overrides the NX_CLOUD_ENABLED repo variable"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -11,6 +18,16 @@ permissions:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+
+    env:
+      # NX_NO_CLOUD=true tells Nx to skip cloud entirely (native Nx env var).
+      # Priority: manual dispatch input → NX_CLOUD_ENABLED repo variable → default on.
+      NX_NO_CLOUD: >-
+        ${{
+          (inputs.nx_cloud_enabled != '' && inputs.nx_cloud_enabled == 'false') ||
+          (inputs.nx_cloud_enabled == '' && vars.NX_CLOUD_ENABLED == 'false')
+        }}
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -20,10 +37,15 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/yarn-install
 
-      # Warm up Nx Cache (Using Nx Cloud)
-      # This ensures the Docker build is nearly instant for steps that haven't changed.
+      - name: Nx Cloud status
+        run: echo "NX_NO_CLOUD = $NX_NO_CLOUD"
+
+      # Warm up Nx Cache (Using Nx Cloud if enabled).
+      # When NX_NO_CLOUD=true, Nx runs locally — no caching, but no auth errors either.
       - name: Nx Build
         run: npx nx run-many -t build -p twenty-server twenty-front --parallel=3
+        env:
+          NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
@@ -43,11 +65,13 @@ jobs:
           file: packages/twenty-docker/twenty/Dockerfile
           target: twenty
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: |
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:sha-${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          # Passing Nx Cloud token into Docker allows even the Internal Docker build to stay cached
           build-args: |
+            NX_NO_CLOUD=${{ env.NX_NO_CLOUD }}
             NX_CLOUD_ACCESS_TOKEN=${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
       - name: Trigger Dokploy Webhook

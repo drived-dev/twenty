@@ -45,7 +45,7 @@ export const TERMINAL_TOKENS = {
       '0 0 1px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
   },
   font: {
-    ui: "'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif",
+    ui: "'IBM Plex Sans Thai', system-ui, -apple-system, 'Segoe UI', sans-serif",
     mono: "'Geist Mono', 'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace",
   },
 } as const;

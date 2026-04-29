@@ -1,6 +1,6 @@
 export const THEME = {
   fontFamily:
-    'var(--t-font-family, "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif)',
+    'var(--t-font-family, "IBM Plex Sans Thai", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif)',
   borderRadius: 'var(--t-border-radius-sm, 4px)',
 
   fontPrimary: 'var(--t-font-color-primary)',

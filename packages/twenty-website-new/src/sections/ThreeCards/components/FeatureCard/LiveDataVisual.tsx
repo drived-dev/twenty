@@ -14,7 +14,7 @@ import { type RefObject, useEffect, useRef, useState } from 'react';
 import { LiveDataGradientBackdrop } from './LiveDataGradientBackdrop';
 import { LiveDataHeroTable } from './LiveDataHeroTable';
 
-const APP_FONT = `'IBM Plex Sans', ${theme.font.family.sans}`;
+const APP_FONT = `'IBM Plex Sans Thai', ${theme.font.family.sans}`;
 const SCENE_HEIGHT = 508;
 const SCENE_WIDTH = 411;
 const LIVE_DATA_SCENE_VIEWPORT_TRANSFORM = `translateX(-50%) scale(min(100cqw / ${SCENE_WIDTH}px, 100cqh / ${SCENE_HEIGHT}px))`;

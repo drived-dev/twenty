@@ -29,7 +29,7 @@ import {
 } from 'react';
 import { FamiliarInterfaceGradientBackdrop } from './FamiliarInterfaceGradientBackdrop';
 
-const APP_FONT = `'IBM Plex Sans', ${theme.font.family.sans}`;
+const APP_FONT = `'IBM Plex Sans Thai', ${theme.font.family.sans}`;
 const TABLER_STROKE = 1.6;
 const SCENE_WIDTH = 411;
 const SCENE_HEIGHT = 508;

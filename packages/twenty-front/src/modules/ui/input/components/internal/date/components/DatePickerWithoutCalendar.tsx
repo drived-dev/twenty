@@ -35,7 +35,7 @@ const StyledContainer = styled.div<{
   & .react-datepicker {
     border-color: ${themeCssVariables.border.color.light};
     background: transparent;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans Thai';
     font-size: ${themeCssVariables.font.size.md};
     border: none;
     display: block;

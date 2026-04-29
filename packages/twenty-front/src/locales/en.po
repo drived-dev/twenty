@@ -4958,11 +4958,6 @@ msgstr "Detach"
 msgid "Details"
 msgstr "Details"
 
-#. js-lingui-id: 7aDnUb
-#: src/pages/settings/applications/SettingsApplications.tsx
-msgid "Developer"
-msgstr "Developer"
-
 #. js-lingui-id: irW7LP
 #: src/modules/settings/applications/components/SettingsApplicationAboutSidebar.tsx
 msgid "Developers links"
@@ -5034,8 +5029,6 @@ msgstr "Do not import"
 #. js-lingui-id: TvY/XA
 #: src/pages/settings/workspace/SettingsApiWebhooks.tsx
 #: src/pages/settings/developers/api-keys/SettingsApiKeys.tsx
-#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
-#: src/modules/navigation/components/NavigationDrawerOtherSection.tsx
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -15191,7 +15184,6 @@ msgstr "Updated (on specific fields)"
 #. js-lingui-id: qIrtcK
 #: src/pages/settings/updates/SettingsUpdates.tsx
 #: src/pages/settings/updates/SettingsUpdates.tsx
-#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 msgid "Updates"
 msgstr "Updates"
 

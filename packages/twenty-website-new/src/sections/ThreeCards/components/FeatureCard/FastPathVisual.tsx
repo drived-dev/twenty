@@ -25,7 +25,7 @@ import {
 } from 'react';
 import { FastPathGradientBackdrop } from './FastPathGradientBackdrop';
 
-const APP_FONT = `'IBM Plex Sans', ${theme.font.family.sans}`;
+const APP_FONT = `'IBM Plex Sans Thai', ${theme.font.family.sans}`;
 const FAST_PATH_NOISE_BACKGROUND =
   'url("/images/home/three-cards-feature/fast-path-background-noise.webp")';
 const SCENE_DESIGN_WIDTH = 411;

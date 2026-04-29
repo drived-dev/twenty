@@ -2,17 +2,17 @@
 
 import { styled } from '@linaria/react';
 import {
-  IconArrowBackUp,
-  IconChevronDown,
-  IconChevronRight,
-  IconChevronUp,
+    IconArrowBackUp,
+    IconChevronDown,
+    IconChevronRight,
+    IconChevronUp,
 } from '@tabler/icons-react';
 import { useState } from 'react';
 import { CHAT_TIMINGS } from './animationTiming';
 import {
-  CHANGESET_TOTALS,
-  ROCKET_CHANGESET,
-  type FileChange,
+    CHANGESET_TOTALS,
+    ROCKET_CHANGESET,
+    type FileChange,
 } from './rocketChangeset';
 
 const ROW_STAGGER_MS = 24;
@@ -54,7 +54,7 @@ const HeaderTitle = styled.div`
   color: rgba(0, 0, 0, 0.72);
   display: flex;
   flex: 1 1 auto;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 12.5px;
   font-weight: 500;
   gap: 6px;
@@ -80,7 +80,7 @@ const UndoButton = styled.button`
   color: rgba(0, 0, 0, 0.55);
   cursor: pointer;
   display: inline-flex;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 12px;
   font-weight: 500;
   gap: 3px;
@@ -185,7 +185,7 @@ const SeeMoreButton = styled.button`
   color: rgba(0, 0, 0, 0.48);
   cursor: pointer;
   display: inline-flex;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 11.5px;
   font-weight: 500;
   gap: 4px;

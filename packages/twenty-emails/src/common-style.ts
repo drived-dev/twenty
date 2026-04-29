@@ -35,7 +35,7 @@ export const emailTheme = {
       inverted: grayScale.gray0,
       blue: colors.blue40,
     },
-    family: 'Trebuchet MS', // Google IBM Plex Sans not working, we need to use a web safe font, see https://templates.mailchimp.com/design/typography/
+    family: 'Trebuchet MS', // Google IBM Plex Sans Thai not working, we need to use a web safe font, see https://templates.mailchimp.com/design/typography/
     weight: {
       regular: 400,
       bold: 600,
