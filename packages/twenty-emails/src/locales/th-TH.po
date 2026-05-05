@@ -237,4 +237,3 @@ msgstr "Mobius.com, บริษัทเพื่อประโยชน์ส
 #: src/components/Footer.tsx
 msgid "San Francisco / Paris"
 msgstr "ซานฟรานซิสโก / ปารีส"
-

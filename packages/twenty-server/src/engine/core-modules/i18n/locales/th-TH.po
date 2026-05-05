@@ -8707,4 +8707,3 @@ msgstr "สมาชิกในทีมของคุณซึ่งรับ
 #: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
 msgid "Your workspace has been updated with a new data model. Please refresh the page."
 msgstr "พื้นที่ทำงานของคุณได้รับการอัปเดตด้วยรูปแบบข้อมูลใหม่ โปรดรีเฟรชหน้าเว็บ"
-
